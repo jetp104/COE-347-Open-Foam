@@ -21,9 +21,9 @@
 #       followed by "module help pylauncher".
 #----------------------------------------------------
 
-#SBATCH -J cavity           # Job name
-#SBATCH -o cavity.o%j       # Name of stdout output file
-#SBATCH -e cavity.e%j       # Name of stderr error file
+#SBATCH -J 400-200x200           # Job name
+#SBATCH -o 400-200x200.o%j       # Name of stdout output file
+#SBATCH -e 400-200x200.e%j       # Name of stderr error file
 #SBATCH -p development           # Queue (partition) name
 #SBATCH -N 1               # Total # of nodes (must be 1 for serial)
 #SBATCH -n 1               # Total # of mpi tasks (should be 1 for serial)
