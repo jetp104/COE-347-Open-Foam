@@ -7,12 +7,12 @@
 \*---------------------------------------------------------------------------*/
 Build  : 7
 Exec   : blockMesh
-Date   : Feb 06 2025
-Time   : 01:07:13
-Host   : "c206-015.frontera.tacc.utexas.edu"
-PID    : 8150
+Date   : Feb 07 2025
+Time   : 00:30:26
+Host   : "c201-017.frontera.tacc.utexas.edu"
+PID    : 15241
 I/O    : uncollated
-Case   : /work2/10249/ctshep3141/frontera/coe347/of-project-1/cavity-Re-10/80x80
+Case   : /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-1/cavity-Re-10/80x80
 nProcs : 1
 sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
 fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
@@ -22,7 +22,7 @@ allowSystemOperations : Allowing user-supplied system call operations
 Create time
 
 Creating block mesh from
-    "/work2/10249/ctshep3141/frontera/coe347/of-project-1/cavity-Re-10/80x80/system/blockMeshDict"
+    "/work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-1/cavity-Re-10/80x80/system/blockMeshDict"
 Creating block edges
 No non-planar block faces defined
 Creating topology blocks

@@ -7,12 +7,12 @@
 \*---------------------------------------------------------------------------*/
 Build  : 7
 Exec   : checkMesh
-Date   : Feb 06 2025
-Time   : 01:05:50
-Host   : "c205-021.frontera.tacc.utexas.edu"
-PID    : 273210
+Date   : Feb 07 2025
+Time   : 00:29:46
+Host   : "c201-017.frontera.tacc.utexas.edu"
+PID    : 14517
 I/O    : uncollated
-Case   : /work2/10249/ctshep3141/frontera/coe347/of-project-1/cavity-Re-10/40x40
+Case   : /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-1/cavity-Re-10/40x40
 nProcs : 1
 sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
 fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
