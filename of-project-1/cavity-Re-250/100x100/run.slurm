@@ -24,7 +24,7 @@
 #SBATCH -J 100x100-250           # Job name
 #SBATCH -o 100x100-250.o%j       # Name of stdout output file
 #SBATCH -e 100x100-250.e%j       # Name of stderr error file
-#SBATCH -p development           # Queue (partition) name
+#SBATCH -p small          # Queue (partition) name
 #SBATCH -N 1               # Total # of nodes (must be 1 for serial)
 #SBATCH -n 1               # Total # of mpi tasks (should be 1 for serial)
 #SBATCH -t 02:00:00        # Run time (hh:mm:ss)
