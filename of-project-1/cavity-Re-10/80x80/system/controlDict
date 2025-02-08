@@ -17,13 +17,13 @@ FoamFile
 
 application     icoFoam;
 
-startFrom       startTime;
+startFrom       latestTime;
 
 startTime       0;
 
 stopAt          endTime;
 
-endTime         0.5;
+endTime         3;
 
 deltaT          1.25e-3;
 
