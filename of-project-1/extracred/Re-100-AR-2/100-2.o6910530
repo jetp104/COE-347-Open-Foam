@@ -1,0 +1,4 @@
+Running blockMesh on /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-1/extracred/Re-100-AR-2
+Running checkMesh on /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-1/extracred/Re-100-AR-2
+Running icoFoam on /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-1/extracred/Re-100-AR-2
+Running postProcess on /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-1/extracred/Re-100-AR-2
