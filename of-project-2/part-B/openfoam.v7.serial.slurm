@@ -3,9 +3,9 @@
 # See https://docs.tacc.utexas.edu/hpc/frontera/#scripts 
 # for more details
 
-#SBATCH -J tutorial      # Job name
-#SBATCH -o tutorial.o%j       # Name of stdout output file
-#SBATCH -e tutorial.e%j       # Name of stderr error file
+#SBATCH -J part-b      # Job name
+#SBATCH -o part-b.o%j       # Name of stdout output file
+#SBATCH -e part-b.e%j       # Name of stderr error file
 
 ### #SBATCH -p normal          # Queue (partition) name
 
