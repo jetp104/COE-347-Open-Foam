@@ -39,9 +39,9 @@ fprintf(destinationid, '( \n' );
 Rad = R + 0.5;
 for m = 0:63
 if m >= 32
-z = 0.5;
+z = 0.05;
 else
-z = -0.5;
+z = -0.05;
 end
 if 0 <= m && m <= 7 || 32 <= m && m <= 39
 x = 0.5*cos(m*pi/4);
@@ -89,6 +89,12 @@ x = Rad*cos(7*pi/4);
 end
 if ismember(m, [31, 63])
 y = Rad*sin(7*pi/4);
+end
+if ismember(m, [16, 48, 24, 56])
+y = 0;
+end
+if ismember(m, [20, 52, 28, 60])
+x = 0;
 end
 fprintf(destinationid, '   (%f  %f  %f) // %d \n', x, y, z, m);
 end
@@ -140,7 +146,7 @@ if n > 7
 fprintf(destinationid, '   hex %s %s simpleGrading %s \n', blocks{n + 1}, grid{n - 7}, '(1 1 1)');
 fprintf(destinationid, '\n');
 else
-fprintf(destinationid, '   hex %s %s simpleGrading %s \n', blocks{n + 1}, circlemesh, '(2 1 1)');
+fprintf(destinationid, '   hex %s %s simpleGrading %s \n', blocks{n + 1}, circlemesh, '(1 1 1)');
 fprintf(destinationid, '\n');
 end
 end
@@ -156,10 +162,10 @@ nodelist = [0:1:15, 32:1:47];
 phi = pi/8;
 
 for jj = 1:32
-if nodelist(jj) >= 32
-z = -0.5;
+if nodelist(jj) < 32
+z = -0.05;
 else
-z = 0.5;
+z = 0.05;
 end
 
 if 0 <= nodelist(jj) && nodelist(jj) <=7 || 32 <= nodelist(jj) && nodelist(jj) <= 39
