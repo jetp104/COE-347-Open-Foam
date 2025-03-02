@@ -8,11 +8,11 @@
 Build  : 7
 Exec   : checkMesh
 Date   : Mar 02 2025
-Time   : 13:15:28
-Host   : "c206-018.frontera.tacc.utexas.edu"
-PID    : 165869
+Time   : 16:42:19
+Host   : "c202-027.frontera.tacc.utexas.edu"
+PID    : 186385
 I/O    : uncollated
-Case   : /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/tutorial-2
+Case   : /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-A
 nProcs : 1
 sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
 fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
@@ -24,7 +24,7 @@ Create time
 --> FOAM Warning : 
     From function entry::New(dictionary&, Istream&)
     in file db/dictionary/entry/entryIO.C at line 144
-    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/tutorial-2/system/probes
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-A/system/probes
     found on line 26 the punctuation token '/'
     expected either } or EOF
 Create polyMesh for time = 0
@@ -32,11 +32,11 @@ Create polyMesh for time = 0
 Time = 0
 
 Mesh stats
-    points:           17530
+    points:           44040
     internal points:  0
-    faces:            34265
-    internal faces:   16735
-    cells:            8500
+    faces:            86820
+    internal faces:   42780
+    cells:            21600
     faces per cell:   6
     boundary patches: 6
     point zones:      0
@@ -44,7 +44,7 @@ Mesh stats
     cell zones:       0
 
 Overall number of cells of each type:
-    hexahedra:     8500
+    hexahedra:     21600
     prisms:        0
     wedges:        0
     pyramids:      0
@@ -62,27 +62,27 @@ Checking topology...
 
 Checking patch topology for multiply connected surfaces...
     Patch               Faces    Points   Surface topology                  
-    inlet               100      202      ok (non-closed singly connected)  
-    outlet              100      202      ok (non-closed singly connected)  
-    cylinder            160      320      ok (non-closed singly connected)  
-    top                 85       172      ok (non-closed singly connected)  
-    bottom              85       172      ok (non-closed singly connected)  
-    defaultFaces        17000    17530    ok (non-closed singly connected)  
+    inlet               180      362      ok (non-closed singly connected)  
+    outlet              180      362      ok (non-closed singly connected)  
+    cylinder            240      480      ok (non-closed singly connected)  
+    top                 120      242      ok (non-closed singly connected)  
+    bottom              120      242      ok (non-closed singly connected)  
+    defaultFaces        43200    44040    ok (non-closed singly connected)  
 
 Checking geometry...
-    Overall domain bounding box (-4 -4 -0.05) (6 4 0.05)
+    Overall domain bounding box (-50 -50 -0.05) (20 50 0.05)
     Mesh has 2 geometric (non-empty/wedge) directions (1 1 0)
     Mesh has 2 solution (non-empty) directions (1 1 0)
     All edges aligned with or perpendicular to non-empty directions.
-    Boundary openness (2.99194e-19 1.19678e-18 -9.2109e-18) OK.
-    Max cell openness = 2.35683e-16 OK.
-    Max aspect ratio = 5.42227 OK.
-    Minimum face area = 0.00196337. Maximum face area = 0.0195956.  Face area magnitudes OK.
-    Min volume = 0.000215925. Max volume = 0.00191994.  Total volume = 7.92148.  Cell volumes OK.
-    Mesh non-orthogonality Max: 42.7702 average: 10.9459
+    Boundary openness (-6.9227e-20 1.33114e-18 1.01732e-15) OK.
+    Max cell openness = 5.18258e-16 OK.
+    Max aspect ratio = 20.1276 OK.
+    Minimum face area = 0.00130896. Maximum face area = 4.09578.  Face area magnitudes OK.
+    Min volume = 0.000660342. Max volume = 0.409578.  Total volume = 699.921.  Cell volumes OK.
+    Mesh non-orthogonality Max: 43.919 average: 12.1582
     Non-orthogonality check OK.
     Face pyramids OK.
-    Max skewness = 0.949081 OK.
+    Max skewness = 1.09605 OK.
     Coupled point location match (average 0) OK.
 
 Mesh OK.
