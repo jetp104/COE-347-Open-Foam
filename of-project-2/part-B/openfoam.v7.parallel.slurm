@@ -12,7 +12,7 @@
 #SBATCH -p development          # Queue (partition) name
 #SBATCH -N 1               # Total # of nodes
 #SBATCH -n 56               # Total # of mpi tasks
-#SBATCH -t 01:00:00        # Run time (hh:mm:ss)
+#SBATCH -t 02:00:00        # Run time (hh:mm:ss)
 
 #SBATCH --mail-user=ctshepard@utexas.edu
 #SBATCH --mail-type=all    # Send email at begin and end of job

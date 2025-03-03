@@ -7,10 +7,10 @@
 \*---------------------------------------------------------------------------*/
 Build  : 7
 Exec   : decomposePar
-Date   : Mar 02 2025
-Time   : 18:18:01
-Host   : "c209-026.frontera.tacc.utexas.edu"
-PID    : 164670
+Date   : Mar 03 2025
+Time   : 00:28:33
+Host   : "c201-030.frontera.tacc.utexas.edu"
+PID    : 80416
 I/O    : uncollated
 Case   : /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B
 nProcs : 1
@@ -53,7 +53,7 @@ Calculating distribution of cells
 
 Selecting decompositionMethod hierarchical
 
-Finished decomposition in 0 s
+Finished decomposition in 0.01 s
 
 Calculating original mesh data
 
@@ -1018,7 +1018,7 @@ Max number of cells = 608 (0.141176% above average 607.143)
 Max number of processor patches = 8 (62.3188% above average 4.92857)
 Max number of faces between processors = 290 (175.441% above average 105.286)
 
-Time = 0
+Time = 40
 
 Processor 0: field transfer
 --> FOAM Warning : 
@@ -1027,6 +1027,7 @@ Processor 0: field transfer
     Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/system/probes
     found on line 26 the punctuation token '/'
     expected either } or EOF
+Detected additional non-decomposed files in "/work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/40/uniform"
 Processor 1: field transfer
 --> FOAM Warning : 
     From function entry::New(dictionary&, Istream&)
@@ -1034,6 +1035,7 @@ Processor 1: field transfer
     Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/system/probes
     found on line 26 the punctuation token '/'
     expected either } or EOF
+Detected additional non-decomposed files in "/work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/40/uniform"
 Processor 2: field transfer
 --> FOAM Warning : 
     From function entry::New(dictionary&, Istream&)
@@ -1041,6 +1043,7 @@ Processor 2: field transfer
     Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/system/probes
     found on line 26 the punctuation token '/'
     expected either } or EOF
+Detected additional non-decomposed files in "/work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/40/uniform"
 Processor 3: field transfer
 --> FOAM Warning : 
     From function entry::New(dictionary&, Istream&)
@@ -1048,6 +1051,7 @@ Processor 3: field transfer
     Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/system/probes
     found on line 26 the punctuation token '/'
     expected either } or EOF
+Detected additional non-decomposed files in "/work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/40/uniform"
 Processor 4: field transfer
 --> FOAM Warning : 
     From function entry::New(dictionary&, Istream&)
@@ -1055,6 +1059,7 @@ Processor 4: field transfer
     Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/system/probes
     found on line 26 the punctuation token '/'
     expected either } or EOF
+Detected additional non-decomposed files in "/work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/40/uniform"
 Processor 5: field transfer
 --> FOAM Warning : 
     From function entry::New(dictionary&, Istream&)
@@ -1062,6 +1067,7 @@ Processor 5: field transfer
     Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/system/probes
     found on line 26 the punctuation token '/'
     expected either } or EOF
+Detected additional non-decomposed files in "/work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/40/uniform"
 Processor 6: field transfer
 --> FOAM Warning : 
     From function entry::New(dictionary&, Istream&)
@@ -1069,6 +1075,7 @@ Processor 6: field transfer
     Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/system/probes
     found on line 26 the punctuation token '/'
     expected either } or EOF
+Detected additional non-decomposed files in "/work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/40/uniform"
 Processor 7: field transfer
 --> FOAM Warning : 
     From function entry::New(dictionary&, Istream&)
@@ -1076,6 +1083,7 @@ Processor 7: field transfer
     Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/system/probes
     found on line 26 the punctuation token '/'
     expected either } or EOF
+Detected additional non-decomposed files in "/work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/40/uniform"
 Processor 8: field transfer
 --> FOAM Warning : 
     From function entry::New(dictionary&, Istream&)
@@ -1083,6 +1091,7 @@ Processor 8: field transfer
     Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/system/probes
     found on line 26 the punctuation token '/'
     expected either } or EOF
+Detected additional non-decomposed files in "/work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/40/uniform"
 Processor 9: field transfer
 --> FOAM Warning : 
     From function entry::New(dictionary&, Istream&)
@@ -1090,6 +1099,7 @@ Processor 9: field transfer
     Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/system/probes
     found on line 26 the punctuation token '/'
     expected either } or EOF
+Detected additional non-decomposed files in "/work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/40/uniform"
 Processor 10: field transfer
 --> FOAM Warning : 
     From function entry::New(dictionary&, Istream&)
@@ -1097,6 +1107,7 @@ Processor 10: field transfer
     Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/system/probes
     found on line 26 the punctuation token '/'
     expected either } or EOF
+Detected additional non-decomposed files in "/work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/40/uniform"
 Processor 11: field transfer
 --> FOAM Warning : 
     From function entry::New(dictionary&, Istream&)
@@ -1104,6 +1115,7 @@ Processor 11: field transfer
     Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/system/probes
     found on line 26 the punctuation token '/'
     expected either } or EOF
+Detected additional non-decomposed files in "/work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/40/uniform"
 Processor 12: field transfer
 --> FOAM Warning : 
     From function entry::New(dictionary&, Istream&)
@@ -1111,6 +1123,7 @@ Processor 12: field transfer
     Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/system/probes
     found on line 26 the punctuation token '/'
     expected either } or EOF
+Detected additional non-decomposed files in "/work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/40/uniform"
 Processor 13: field transfer
 --> FOAM Warning : 
     From function entry::New(dictionary&, Istream&)
@@ -1118,6 +1131,7 @@ Processor 13: field transfer
     Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/system/probes
     found on line 26 the punctuation token '/'
     expected either } or EOF
+Detected additional non-decomposed files in "/work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/40/uniform"
 Processor 14: field transfer
 --> FOAM Warning : 
     From function entry::New(dictionary&, Istream&)
@@ -1125,6 +1139,7 @@ Processor 14: field transfer
     Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/system/probes
     found on line 26 the punctuation token '/'
     expected either } or EOF
+Detected additional non-decomposed files in "/work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/40/uniform"
 Processor 15: field transfer
 --> FOAM Warning : 
     From function entry::New(dictionary&, Istream&)
@@ -1132,6 +1147,7 @@ Processor 15: field transfer
     Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/system/probes
     found on line 26 the punctuation token '/'
     expected either } or EOF
+Detected additional non-decomposed files in "/work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/40/uniform"
 Processor 16: field transfer
 --> FOAM Warning : 
     From function entry::New(dictionary&, Istream&)
@@ -1139,6 +1155,7 @@ Processor 16: field transfer
     Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/system/probes
     found on line 26 the punctuation token '/'
     expected either } or EOF
+Detected additional non-decomposed files in "/work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/40/uniform"
 Processor 17: field transfer
 --> FOAM Warning : 
     From function entry::New(dictionary&, Istream&)
@@ -1146,6 +1163,7 @@ Processor 17: field transfer
     Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/system/probes
     found on line 26 the punctuation token '/'
     expected either } or EOF
+Detected additional non-decomposed files in "/work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/40/uniform"
 Processor 18: field transfer
 --> FOAM Warning : 
     From function entry::New(dictionary&, Istream&)
@@ -1153,6 +1171,7 @@ Processor 18: field transfer
     Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/system/probes
     found on line 26 the punctuation token '/'
     expected either } or EOF
+Detected additional non-decomposed files in "/work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/40/uniform"
 Processor 19: field transfer
 --> FOAM Warning : 
     From function entry::New(dictionary&, Istream&)
@@ -1160,6 +1179,7 @@ Processor 19: field transfer
     Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/system/probes
     found on line 26 the punctuation token '/'
     expected either } or EOF
+Detected additional non-decomposed files in "/work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/40/uniform"
 Processor 20: field transfer
 --> FOAM Warning : 
     From function entry::New(dictionary&, Istream&)
@@ -1167,6 +1187,7 @@ Processor 20: field transfer
     Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/system/probes
     found on line 26 the punctuation token '/'
     expected either } or EOF
+Detected additional non-decomposed files in "/work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/40/uniform"
 Processor 21: field transfer
 --> FOAM Warning : 
     From function entry::New(dictionary&, Istream&)
@@ -1174,6 +1195,7 @@ Processor 21: field transfer
     Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/system/probes
     found on line 26 the punctuation token '/'
     expected either } or EOF
+Detected additional non-decomposed files in "/work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/40/uniform"
 Processor 22: field transfer
 --> FOAM Warning : 
     From function entry::New(dictionary&, Istream&)
@@ -1181,6 +1203,7 @@ Processor 22: field transfer
     Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/system/probes
     found on line 26 the punctuation token '/'
     expected either } or EOF
+Detected additional non-decomposed files in "/work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/40/uniform"
 Processor 23: field transfer
 --> FOAM Warning : 
     From function entry::New(dictionary&, Istream&)
@@ -1188,6 +1211,7 @@ Processor 23: field transfer
     Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/system/probes
     found on line 26 the punctuation token '/'
     expected either } or EOF
+Detected additional non-decomposed files in "/work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/40/uniform"
 Processor 24: field transfer
 --> FOAM Warning : 
     From function entry::New(dictionary&, Istream&)
@@ -1195,6 +1219,7 @@ Processor 24: field transfer
     Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/system/probes
     found on line 26 the punctuation token '/'
     expected either } or EOF
+Detected additional non-decomposed files in "/work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/40/uniform"
 Processor 25: field transfer
 --> FOAM Warning : 
     From function entry::New(dictionary&, Istream&)
@@ -1202,6 +1227,7 @@ Processor 25: field transfer
     Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/system/probes
     found on line 26 the punctuation token '/'
     expected either } or EOF
+Detected additional non-decomposed files in "/work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/40/uniform"
 Processor 26: field transfer
 --> FOAM Warning : 
     From function entry::New(dictionary&, Istream&)
@@ -1209,6 +1235,7 @@ Processor 26: field transfer
     Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/system/probes
     found on line 26 the punctuation token '/'
     expected either } or EOF
+Detected additional non-decomposed files in "/work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/40/uniform"
 Processor 27: field transfer
 --> FOAM Warning : 
     From function entry::New(dictionary&, Istream&)
@@ -1216,6 +1243,7 @@ Processor 27: field transfer
     Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/system/probes
     found on line 26 the punctuation token '/'
     expected either } or EOF
+Detected additional non-decomposed files in "/work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/40/uniform"
 Processor 28: field transfer
 --> FOAM Warning : 
     From function entry::New(dictionary&, Istream&)
@@ -1223,6 +1251,7 @@ Processor 28: field transfer
     Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/system/probes
     found on line 26 the punctuation token '/'
     expected either } or EOF
+Detected additional non-decomposed files in "/work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/40/uniform"
 Processor 29: field transfer
 --> FOAM Warning : 
     From function entry::New(dictionary&, Istream&)
@@ -1230,6 +1259,7 @@ Processor 29: field transfer
     Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/system/probes
     found on line 26 the punctuation token '/'
     expected either } or EOF
+Detected additional non-decomposed files in "/work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/40/uniform"
 Processor 30: field transfer
 --> FOAM Warning : 
     From function entry::New(dictionary&, Istream&)
@@ -1237,6 +1267,7 @@ Processor 30: field transfer
     Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/system/probes
     found on line 26 the punctuation token '/'
     expected either } or EOF
+Detected additional non-decomposed files in "/work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/40/uniform"
 Processor 31: field transfer
 --> FOAM Warning : 
     From function entry::New(dictionary&, Istream&)
@@ -1244,6 +1275,7 @@ Processor 31: field transfer
     Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/system/probes
     found on line 26 the punctuation token '/'
     expected either } or EOF
+Detected additional non-decomposed files in "/work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/40/uniform"
 Processor 32: field transfer
 --> FOAM Warning : 
     From function entry::New(dictionary&, Istream&)
@@ -1251,6 +1283,7 @@ Processor 32: field transfer
     Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/system/probes
     found on line 26 the punctuation token '/'
     expected either } or EOF
+Detected additional non-decomposed files in "/work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/40/uniform"
 Processor 33: field transfer
 --> FOAM Warning : 
     From function entry::New(dictionary&, Istream&)
@@ -1258,6 +1291,7 @@ Processor 33: field transfer
     Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/system/probes
     found on line 26 the punctuation token '/'
     expected either } or EOF
+Detected additional non-decomposed files in "/work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/40/uniform"
 Processor 34: field transfer
 --> FOAM Warning : 
     From function entry::New(dictionary&, Istream&)
@@ -1265,6 +1299,7 @@ Processor 34: field transfer
     Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/system/probes
     found on line 26 the punctuation token '/'
     expected either } or EOF
+Detected additional non-decomposed files in "/work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/40/uniform"
 Processor 35: field transfer
 --> FOAM Warning : 
     From function entry::New(dictionary&, Istream&)
@@ -1272,6 +1307,7 @@ Processor 35: field transfer
     Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/system/probes
     found on line 26 the punctuation token '/'
     expected either } or EOF
+Detected additional non-decomposed files in "/work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/40/uniform"
 Processor 36: field transfer
 --> FOAM Warning : 
     From function entry::New(dictionary&, Istream&)
@@ -1279,6 +1315,7 @@ Processor 36: field transfer
     Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/system/probes
     found on line 26 the punctuation token '/'
     expected either } or EOF
+Detected additional non-decomposed files in "/work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/40/uniform"
 Processor 37: field transfer
 --> FOAM Warning : 
     From function entry::New(dictionary&, Istream&)
@@ -1286,6 +1323,7 @@ Processor 37: field transfer
     Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/system/probes
     found on line 26 the punctuation token '/'
     expected either } or EOF
+Detected additional non-decomposed files in "/work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/40/uniform"
 Processor 38: field transfer
 --> FOAM Warning : 
     From function entry::New(dictionary&, Istream&)
@@ -1293,6 +1331,7 @@ Processor 38: field transfer
     Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/system/probes
     found on line 26 the punctuation token '/'
     expected either } or EOF
+Detected additional non-decomposed files in "/work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/40/uniform"
 Processor 39: field transfer
 --> FOAM Warning : 
     From function entry::New(dictionary&, Istream&)
@@ -1300,6 +1339,7 @@ Processor 39: field transfer
     Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/system/probes
     found on line 26 the punctuation token '/'
     expected either } or EOF
+Detected additional non-decomposed files in "/work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/40/uniform"
 Processor 40: field transfer
 --> FOAM Warning : 
     From function entry::New(dictionary&, Istream&)
@@ -1307,6 +1347,7 @@ Processor 40: field transfer
     Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/system/probes
     found on line 26 the punctuation token '/'
     expected either } or EOF
+Detected additional non-decomposed files in "/work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/40/uniform"
 Processor 41: field transfer
 --> FOAM Warning : 
     From function entry::New(dictionary&, Istream&)
@@ -1314,6 +1355,7 @@ Processor 41: field transfer
     Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/system/probes
     found on line 26 the punctuation token '/'
     expected either } or EOF
+Detected additional non-decomposed files in "/work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/40/uniform"
 Processor 42: field transfer
 --> FOAM Warning : 
     From function entry::New(dictionary&, Istream&)
@@ -1321,6 +1363,7 @@ Processor 42: field transfer
     Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/system/probes
     found on line 26 the punctuation token '/'
     expected either } or EOF
+Detected additional non-decomposed files in "/work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/40/uniform"
 Processor 43: field transfer
 --> FOAM Warning : 
     From function entry::New(dictionary&, Istream&)
@@ -1328,6 +1371,7 @@ Processor 43: field transfer
     Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/system/probes
     found on line 26 the punctuation token '/'
     expected either } or EOF
+Detected additional non-decomposed files in "/work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/40/uniform"
 Processor 44: field transfer
 --> FOAM Warning : 
     From function entry::New(dictionary&, Istream&)
@@ -1335,6 +1379,7 @@ Processor 44: field transfer
     Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/system/probes
     found on line 26 the punctuation token '/'
     expected either } or EOF
+Detected additional non-decomposed files in "/work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/40/uniform"
 Processor 45: field transfer
 --> FOAM Warning : 
     From function entry::New(dictionary&, Istream&)
@@ -1342,6 +1387,7 @@ Processor 45: field transfer
     Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/system/probes
     found on line 26 the punctuation token '/'
     expected either } or EOF
+Detected additional non-decomposed files in "/work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/40/uniform"
 Processor 46: field transfer
 --> FOAM Warning : 
     From function entry::New(dictionary&, Istream&)
@@ -1349,6 +1395,7 @@ Processor 46: field transfer
     Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/system/probes
     found on line 26 the punctuation token '/'
     expected either } or EOF
+Detected additional non-decomposed files in "/work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/40/uniform"
 Processor 47: field transfer
 --> FOAM Warning : 
     From function entry::New(dictionary&, Istream&)
@@ -1356,6 +1403,7 @@ Processor 47: field transfer
     Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/system/probes
     found on line 26 the punctuation token '/'
     expected either } or EOF
+Detected additional non-decomposed files in "/work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/40/uniform"
 Processor 48: field transfer
 --> FOAM Warning : 
     From function entry::New(dictionary&, Istream&)
@@ -1363,6 +1411,7 @@ Processor 48: field transfer
     Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/system/probes
     found on line 26 the punctuation token '/'
     expected either } or EOF
+Detected additional non-decomposed files in "/work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/40/uniform"
 Processor 49: field transfer
 --> FOAM Warning : 
     From function entry::New(dictionary&, Istream&)
@@ -1370,6 +1419,7 @@ Processor 49: field transfer
     Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/system/probes
     found on line 26 the punctuation token '/'
     expected either } or EOF
+Detected additional non-decomposed files in "/work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/40/uniform"
 Processor 50: field transfer
 --> FOAM Warning : 
     From function entry::New(dictionary&, Istream&)
@@ -1377,6 +1427,7 @@ Processor 50: field transfer
     Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/system/probes
     found on line 26 the punctuation token '/'
     expected either } or EOF
+Detected additional non-decomposed files in "/work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/40/uniform"
 Processor 51: field transfer
 --> FOAM Warning : 
     From function entry::New(dictionary&, Istream&)
@@ -1384,6 +1435,7 @@ Processor 51: field transfer
     Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/system/probes
     found on line 26 the punctuation token '/'
     expected either } or EOF
+Detected additional non-decomposed files in "/work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/40/uniform"
 Processor 52: field transfer
 --> FOAM Warning : 
     From function entry::New(dictionary&, Istream&)
@@ -1391,6 +1443,7 @@ Processor 52: field transfer
     Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/system/probes
     found on line 26 the punctuation token '/'
     expected either } or EOF
+Detected additional non-decomposed files in "/work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/40/uniform"
 Processor 53: field transfer
 --> FOAM Warning : 
     From function entry::New(dictionary&, Istream&)
@@ -1398,6 +1451,7 @@ Processor 53: field transfer
     Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/system/probes
     found on line 26 the punctuation token '/'
     expected either } or EOF
+Detected additional non-decomposed files in "/work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/40/uniform"
 Processor 54: field transfer
 --> FOAM Warning : 
     From function entry::New(dictionary&, Istream&)
@@ -1405,6 +1459,7 @@ Processor 54: field transfer
     Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/system/probes
     found on line 26 the punctuation token '/'
     expected either } or EOF
+Detected additional non-decomposed files in "/work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/40/uniform"
 Processor 55: field transfer
 --> FOAM Warning : 
     From function entry::New(dictionary&, Istream&)
@@ -1412,6 +1467,7 @@ Processor 55: field transfer
     Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/system/probes
     found on line 26 the punctuation token '/'
     expected either } or EOF
+Detected additional non-decomposed files in "/work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/40/uniform"
 
 End
 
