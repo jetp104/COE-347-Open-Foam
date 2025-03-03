@@ -1,0 +1,687 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  7
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 7
+Exec   : postProcess -func probes
+Date   : Mar 02 2025
+Time   : 20:27:41
+Host   : "c203-027.frontera.tacc.utexas.edu"
+PID    : 235308
+I/O    : uncollated
+Case   : /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+Create mesh for time = 0
+
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+Time = 0
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 0.5
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 1
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 1.5
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 2
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 2.5
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 3
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 3.5
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 4
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 4.5
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 5
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 5.5
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 6
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 6.5
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 7
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 7.5
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 8
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 8.5
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 9
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 9.5
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 10
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 10.5
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 11
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 11.5
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 12
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 12.5
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 13
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 13.5
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 14
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 14.5
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 15
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 15.5
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 16
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 16.5
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 17
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 17.5
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 18
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 18.5
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 19
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 19.5
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 20
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 20.5
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 21
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 21.5
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 22
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 22.5
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 23
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 23.5
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 24
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 24.5
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 25
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 25.5
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 26
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 26.5
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 27
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 27.5
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 28
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 28.5
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 29
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 29.5
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 30
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 30.5
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 31
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 31.5
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 32
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 32.5
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 33
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 33.5
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 34
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 34.5
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 35
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 35.5
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 36
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 36.5
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 37
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 37.5
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 38
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 38.5
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 39
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 39.5
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+Time = 40
+
+Reading fields:
+    volScalarFields: p
+    volVectorFields: U
+
+Executing functionObjects
+
+End
+

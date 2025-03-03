@@ -8,9 +8,9 @@
 Build  : 7
 Exec   : decomposePar
 Date   : Mar 02 2025
-Time   : 17:28:42
-Host   : "c204-003.frontera.tacc.utexas.edu"
-PID    : 167932
+Time   : 18:18:01
+Host   : "c209-026.frontera.tacc.utexas.edu"
+PID    : 164670
 I/O    : uncollated
 Case   : /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/part-B
 nProcs : 1
@@ -53,7 +53,7 @@ Calculating distribution of cells
 
 Selecting decompositionMethod hierarchical
 
-Finished decomposition in 0.01 s
+Finished decomposition in 0 s
 
 Calculating original mesh data
 
