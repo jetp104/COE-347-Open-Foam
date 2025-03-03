@@ -12,5 +12,5 @@ runApplication decomposePar # decompose the domain
 runParallel icoFoam # run the solver 
 
 runApplication reconstructPar # reconstruct the solution
-
+runApplication postProcess -func probes
 #------------------------------------------------------------------------------
