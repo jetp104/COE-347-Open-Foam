@@ -7,13 +7,16 @@ destinationid = fopen(destinationname, 'w');
 sourceid = fopen(sourcename, 'r');
 linecount = 1;
 %% Define mesh dimensions
-Lf = 4;
-Lw = 6;
-R = 1;
-H = 4;
-dims = {'Lf', 'Lw', 'R', 'H'};
+Lf = 50;
+Lw = 40;
+R = 5;
+H = 50;
+Re = 110;
+dims = {'Lf', 'Lw', 'R', 'H', 'Re'};
 %% Print Description section
-for k = 1:4
+name = 'Fine Small \n';
+fprintf(destinationid, name);
+for k = 1:5
 value = eval(dims{k});
 fprintf(destinationid, '// %s = %d \n', dims{k}, value);
 end
@@ -108,45 +111,52 @@ blocks = {'(0 8 9 1 32 40 41 33)', '(1 9 10 2 33 41 42 34)', '(2 10 11 3 34 42 4
 fprintf(destinationid, 'blocks \n');
 fprintf(destinationid, '( \n');
 fprintf(destinationid, '\n');
+% Outside blocks
 meshdims = zeros(12, 3);
-w8 = 30;
-w10 = 20;
-w11 = 20;
-w12 = 15;
-w16 = 20;
-w17 = 20;
-h8 = 20;
-h9 = 30;
-h13 = 20;
-h14 = 20;
-h15 = 30;
-h19 = 20;
-meshdims(1,:) = [w8, h8, 1];
-meshdims(2,:) = [w8, h9, 1];
-meshdims(3,:) = [w10, h9, 1];
-meshdims(4,:) = [w11, h9, 1];
-meshdims(5,:) = [w12, h9, 1];
-meshdims(6,:) = [w12, h13, 1];
-meshdims(7,:) = [w12, h14, 1];
-meshdims(8,:) = [w12, h15, 1];
-meshdims(9,:) = [w16, h15, 1];
-meshdims(10,:) = [w17, h15, 1];
-meshdims(11,:) = [w8, h15, 1];
-meshdims(12,:) = [w8, h19, 1];
+w8 = 60;
+h8 = 40;
+meshdims(1,:) = [w8, h8, 1]; % block 8
+meshdims(2,:) = [w8, w8, 1]; % block 9
+meshdims(3,:) = [h8, w8, 1]; % block 10
+meshdims(4,:) = [h8, w8, 1]; % block 11
+meshdims(5,:) = [w8, w8, 1]; % block 12
+meshdims(6,:) = [w8, h8, 1]; % block 13
+meshdims(7,:) = [w8, h8, 1]; % block 14
+meshdims(8,:) = [w8, w8, 1]; % block 15
+meshdims(9,:) = [h8, w8, 1]; % block 16
+meshdims(10,:) = [h8, w8, 1]; % block 17
+meshdims(11,:) = [w8, w8, 1]; % block 18
+meshdims(12,:) = [w8, h8, 1]; % block 19
 grid = cell(12,1);
 for ii = 1:12
 grid{ii} = ['(' num2str(meshdims(ii,1)) ' ' num2str(meshdims(ii,2)) ' ' num2str(meshdims(ii,3)) ')'];
 end
-r = 10;
-theta = 20;
+% Inside blocks (Circle)
+r = 25;
+theta = h8;
 circlemesh = ['(' num2str(r) ' ' num2str(theta) ' 1)'];
 for n = 0:19
 fprintf(destinationid, '   // block %d \n', n);
 if n > 7
-fprintf(destinationid, '   hex %s %s simpleGrading %s \n', blocks{n + 1}, grid{n - 7}, '(1 1 1)');
+if ismember(n, [8, 9, 18, 19])
+gradingx = 4;
+elseif ismember(n, [10, 11, 16, 17])
+gradingx = 1;
+elseif ismember(n, [12, 13, 14, 15])
+gradingx = 0.25;
+end
+if ismember(n, [8, 13, 14, 19])
+gradingy = 1;
+elseif ismember(n, [9, 10, 11, 12])
+gradingy = 2;
+elseif ismember(n, [15, 16, 17, 18])
+gradingy = 0.5;
+end
+grading = ['(' num2str(gradingx) ' ' num2str(gradingy)  ' ' num2str(1) ')'];
+fprintf(destinationid, '   hex %s %s simpleGrading %s \n', blocks{n + 1}, grid{n - 7}, grading);
 fprintf(destinationid, '\n');
 else
-fprintf(destinationid, '   hex %s %s simpleGrading %s \n', blocks{n + 1}, circlemesh, '(1 1 1)');
+fprintf(destinationid, '   hex %s %s simpleGrading %s \n', blocks{n + 1}, circlemesh, '(2 1 1)');
 fprintf(destinationid, '\n');
 end
 end

@@ -1,0 +1,1 @@
+In this folder are the Re=110 cases. They are organized according to mesh refinement (coarse, medium, fine). Each refinement subdirectory has two case directories in it, one for a large domain and one for a smaller domain.
