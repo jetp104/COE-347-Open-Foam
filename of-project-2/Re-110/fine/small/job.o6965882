@@ -1,0 +1,8 @@
+/work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-110/fine/small
+Tue Mar  4 15:09:56 CST 2025
+blockMesh already run on /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-110/fine/small: remove log file 'log.blockMesh' to re-run
+checkMesh already run on /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-110/fine/small: remove log file 'log.checkMesh' to re-run
+Running decomposePar on /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-110/fine/small
+Running icoFoam in parallel on /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-110/fine/small using 56 processes
+Running reconstructPar on /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-110/fine/small
+Tue Mar  4 16:32:25 CST 2025

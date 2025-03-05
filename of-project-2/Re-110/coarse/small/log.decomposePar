@@ -1,0 +1,42 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  7
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 7
+Exec   : decomposePar
+Date   : Mar 04 2025
+Time   : 15:01:49
+Host   : "c206-010.frontera.tacc.utexas.edu"
+PID    : 61589
+I/O    : uncollated
+Case   : /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-110/coarse/small
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-110/coarse/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+
+
+--> FOAM FATAL ERROR: 
+Case is already decomposed with 56 domains, use the -force option or manually
+remove processor directories before decomposing. e.g.,
+    rm -rf /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-110/coarse/small/processor*
+
+
+    From function int main(int, char **)
+    in file decomposePar.C at line 387.
+
+FOAM exiting
+

@@ -1,0 +1,8 @@
+/work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-110/fine/small
+Tue Mar  4 00:19:53 CST 2025
+Running blockMesh on /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-110/fine/small
+Running checkMesh on /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-110/fine/small
+Running decomposePar on /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-110/fine/small
+Running icoFoam in parallel on /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-110/fine/small using 56 processes
+Running reconstructPar on /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-110/fine/small
+Tue Mar  4 01:42:48 CST 2025

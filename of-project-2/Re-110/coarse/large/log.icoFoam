@@ -1,0 +1,166 @@
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  7
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 7
+Exec   : icoFoam -parallel
+Date   : Mar 04 2025
+Time   : 15:02:37
+Host   : "c206-011.frontera.tacc.utexas.edu"
+PID    : 26881
+I/O    : uncollated
+Case   : /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-110/coarse/large
+nProcs : 56
+Slaves : 
+55
+(
+"c206-011.frontera.tacc.utexas.edu.26882"
+"c206-011.frontera.tacc.utexas.edu.26883"
+"c206-011.frontera.tacc.utexas.edu.26884"
+"c206-011.frontera.tacc.utexas.edu.26885"
+"c206-011.frontera.tacc.utexas.edu.26886"
+"c206-011.frontera.tacc.utexas.edu.26887"
+"c206-011.frontera.tacc.utexas.edu.26888"
+"c206-011.frontera.tacc.utexas.edu.26889"
+"c206-011.frontera.tacc.utexas.edu.26890"
+"c206-011.frontera.tacc.utexas.edu.26891"
+"c206-011.frontera.tacc.utexas.edu.26892"
+"c206-011.frontera.tacc.utexas.edu.26893"
+"c206-011.frontera.tacc.utexas.edu.26894"
+"c206-011.frontera.tacc.utexas.edu.26895"
+"c206-011.frontera.tacc.utexas.edu.26896"
+"c206-011.frontera.tacc.utexas.edu.26897"
+"c206-011.frontera.tacc.utexas.edu.26898"
+"c206-011.frontera.tacc.utexas.edu.26899"
+"c206-011.frontera.tacc.utexas.edu.26900"
+"c206-011.frontera.tacc.utexas.edu.26901"
+"c206-011.frontera.tacc.utexas.edu.26903"
+"c206-011.frontera.tacc.utexas.edu.26904"
+"c206-011.frontera.tacc.utexas.edu.26905"
+"c206-011.frontera.tacc.utexas.edu.26906"
+"c206-011.frontera.tacc.utexas.edu.26907"
+"c206-011.frontera.tacc.utexas.edu.26908"
+"c206-011.frontera.tacc.utexas.edu.26909"
+"c206-011.frontera.tacc.utexas.edu.26910"
+"c206-011.frontera.tacc.utexas.edu.26911"
+"c206-011.frontera.tacc.utexas.edu.26912"
+"c206-011.frontera.tacc.utexas.edu.26913"
+"c206-011.frontera.tacc.utexas.edu.26914"
+"c206-011.frontera.tacc.utexas.edu.26915"
+"c206-011.frontera.tacc.utexas.edu.26916"
+"c206-011.frontera.tacc.utexas.edu.26917"
+"c206-011.frontera.tacc.utexas.edu.26918"
+"c206-011.frontera.tacc.utexas.edu.26919"
+"c206-011.frontera.tacc.utexas.edu.26920"
+"c206-011.frontera.tacc.utexas.edu.26921"
+"c206-011.frontera.tacc.utexas.edu.26922"
+"c206-011.frontera.tacc.utexas.edu.26923"
+"c206-011.frontera.tacc.utexas.edu.26924"
+"c206-011.frontera.tacc.utexas.edu.26925"
+"c206-011.frontera.tacc.utexas.edu.26926"
+"c206-011.frontera.tacc.utexas.edu.26927"
+"c206-011.frontera.tacc.utexas.edu.26928"
+"c206-011.frontera.tacc.utexas.edu.26929"
+"c206-011.frontera.tacc.utexas.edu.26930"
+"c206-011.frontera.tacc.utexas.edu.26931"
+"c206-011.frontera.tacc.utexas.edu.26932"
+"c206-011.frontera.tacc.utexas.edu.26933"
+"c206-011.frontera.tacc.utexas.edu.26934"
+"c206-011.frontera.tacc.utexas.edu.26935"
+"c206-011.frontera.tacc.utexas.edu.26936"
+"c206-011.frontera.tacc.utexas.edu.26937"
+)
+
+Pstream initialized with:
+    floatTransfer      : 0
+    nProcsSimpleSum    : 0
+    commsType          : nonBlocking
+    polling iterations : 0
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-110/coarse/large/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+Create mesh for time = 150
+
+Reading transportProperties
+
+Reading field p
+
+Reading field U
+
+Reading/calculating face flux field phi
+
+
+Starting time loop
+
+End
+
+Finalising parallel run
