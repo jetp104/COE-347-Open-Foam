@@ -1,0 +1,52 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  Field         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   Operation     | Version:  7                                     |
+|   \\  /    And           | Web:      www.OpenFOAM.com                      |
+|    \\/     Manipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+
+
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    object      sampleDict;
+}
+
+interpolationScheme cellPoint;
+setFormat ascii;
+singleGraph false;
+
+
+sets
+(
+    piOver2
+    {
+        type    line;
+        start   (0 0 0.05);
+        end     (0.1 8.49 0.05);
+        nPoints 100;      // Number of sample points along the line
+        fileName "piOver2.dat";  // File for output data
+    }
+    
+    piOver4
+    {
+        type    line;
+        start   (0 0 0.05);
+        end     (5.85 6 0.05);
+        nPoints 100;
+        fileName "piOver4.dat";
+    3piOver4
+    {
+        type    line;
+        start   (0 0 0.05);
+        end     (-5.85 6 0.05);
+        nPoints 100;
+        fileName "3piOver4.dat";
+    }
+);
+
+fields (p U);           // List the fields you want to sample (e.g., pressure and velocity)
+

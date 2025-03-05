@@ -1,0 +1,103 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  7
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 7
+Exec   : postProcess -func sample
+Date   : Mar 05 2025
+Time   : 00:52:50
+Host   : "c206-008.frontera.tacc.utexas.edu"
+PID    : 283833
+I/O    : uncollated
+Case   : /work2/10532/jrovall/frontera/COE-347-Open-Foam/of-project-2/Re-20/coarse/small
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10532/jrovall/frontera/COE-347-Open-Foam/of-project-2/Re-20/coarse/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+Create mesh for time = 0
+
+--> FOAM Warning : 
+    From function static bool Foam::functionObjectList::readFunctionObject(const Foam::string &, Foam::dictionary &, Foam::HashSet<Foam::word, Foam::string::hash> &, const Foam::word &)
+    in file db/functionObjects/functionObjectList/functionObjectList.C at line 278
+    Cannot find functionObject file sample
+Time = 0
+
+Reading fields:
+
+Executing functionObjects
+
+Time = 5
+
+Reading fields:
+
+Executing functionObjects
+
+Time = 10
+
+Reading fields:
+
+Executing functionObjects
+
+Time = 15
+
+Reading fields:
+
+Executing functionObjects
+
+Time = 20
+
+Reading fields:
+
+Executing functionObjects
+
+Time = 25
+
+Reading fields:
+
+Executing functionObjects
+
+Time = 30
+
+Reading fields:
+
+Executing functionObjects
+
+Time = 35
+
+Reading fields:
+
+Executing functionObjects
+
+Time = 40
+
+Reading fields:
+
+Executing functionObjects
+
+Time = 45
+
+Reading fields:
+
+Executing functionObjects
+
+Time = 50
+
+Reading fields:
+
+Executing functionObjects
+
+End
+
