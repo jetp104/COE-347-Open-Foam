@@ -1,0 +1,1409 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  7
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 7
+Exec   : decomposePar
+Date   : Mar 04 2025
+Time   : 00:27:50
+Host   : "c165-064.frontera.tacc.utexas.edu"
+PID    : 87062
+I/O    : uncollated
+Case   : /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+
+
+Decomposing mesh region0
+
+Create mesh
+
+Calculating distribution of cells
+ Foam::decompositionMethod::New 
+{
+    numberOfSubdomains 56;
+    method          hierarchical;
+    simpleCoeffs
+    {
+        n               ( 8 7 1 );
+        delta           0.001;
+    }
+    hierarchicalCoeffs
+    {
+        n               ( 8 7 1 );
+        delta           0.001;
+        order           xyz;
+    }
+}
+
+Selecting decompositionMethod hierarchical
+
+Finished decomposition in 0 s
+
+Calculating original mesh data
+
+Distributing cells to processors
+
+Distributing faces to processors
+
+Distributing points to processors
+
+Constructing processor meshes
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+
+Processor 0
+    Number of cells = 578
+    Number of faces shared with processor 1 = 26
+    Number of faces shared with processor 8 = 23
+    Number of processor patches = 2
+    Number of processor faces = 49
+    Number of boundary faces = 1205
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+
+Processor 1
+    Number of cells = 578
+    Number of faces shared with processor 0 = 26
+    Number of faces shared with processor 2 = 21
+    Number of faces shared with processor 8 = 2
+    Number of faces shared with processor 9 = 22
+    Number of faces shared with processor 10 = 6
+    Number of processor patches = 5
+    Number of processor faces = 77
+    Number of boundary faces = 1177
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+
+Processor 2
+    Number of cells = 578
+    Number of faces shared with processor 1 = 21
+    Number of faces shared with processor 3 = 23
+    Number of faces shared with processor 10 = 28
+    Number of processor patches = 3
+    Number of processor faces = 72
+    Number of boundary faces = 1182
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+
+Processor 3
+    Number of cells = 578
+    Number of faces shared with processor 2 = 23
+    Number of faces shared with processor 4 = 29
+    Number of faces shared with processor 10 = 7
+    Number of faces shared with processor 11 = 20
+    Number of processor patches = 4
+    Number of processor faces = 79
+    Number of boundary faces = 1177
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+
+Processor 4
+    Number of cells = 578
+    Number of faces shared with processor 3 = 29
+    Number of faces shared with processor 5 = 22
+    Number of faces shared with processor 11 = 1
+    Number of faces shared with processor 12 = 20
+    Number of faces shared with processor 13 = 8
+    Number of processor patches = 5
+    Number of processor faces = 80
+    Number of boundary faces = 1176
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+
+Processor 5
+    Number of cells = 578
+    Number of faces shared with processor 4 = 22
+    Number of faces shared with processor 6 = 20
+    Number of faces shared with processor 13 = 30
+    Number of processor patches = 3
+    Number of processor faces = 72
+    Number of boundary faces = 1184
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+
+Processor 6
+    Number of cells = 578
+    Number of faces shared with processor 5 = 20
+    Number of faces shared with processor 7 = 27
+    Number of faces shared with processor 13 = 9
+    Number of faces shared with processor 14 = 21
+    Number of processor patches = 4
+    Number of processor faces = 77
+    Number of boundary faces = 1177
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+
+Processor 7
+    Number of cells = 578
+    Number of faces shared with processor 6 = 27
+    Number of faces shared with processor 14 = 1
+    Number of faces shared with processor 15 = 22
+    Number of processor patches = 3
+    Number of processor faces = 50
+    Number of boundary faces = 1204
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+
+Processor 8
+    Number of cells = 578
+    Number of faces shared with processor 0 = 23
+    Number of faces shared with processor 1 = 2
+    Number of faces shared with processor 9 = 25
+    Number of faces shared with processor 16 = 23
+    Number of processor patches = 4
+    Number of processor faces = 73
+    Number of boundary faces = 1181
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+
+Processor 9
+    Number of cells = 578
+    Number of faces shared with processor 1 = 22
+    Number of faces shared with processor 8 = 25
+    Number of faces shared with processor 10 = 14
+    Number of faces shared with processor 16 = 1
+    Number of faces shared with processor 17 = 23
+    Number of faces shared with processor 18 = 15
+    Number of processor patches = 6
+    Number of processor faces = 100
+    Number of boundary faces = 1156
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+
+Processor 10
+    Number of cells = 578
+    Number of faces shared with processor 1 = 6
+    Number of faces shared with processor 2 = 28
+    Number of faces shared with processor 3 = 7
+    Number of faces shared with processor 9 = 14
+    Number of faces shared with processor 11 = 16
+    Number of faces shared with processor 18 = 31
+    Number of processor patches = 6
+    Number of processor faces = 102
+    Number of boundary faces = 1156
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+
+Processor 11
+    Number of cells = 578
+    Number of faces shared with processor 3 = 20
+    Number of faces shared with processor 4 = 1
+    Number of faces shared with processor 10 = 16
+    Number of faces shared with processor 12 = 28
+    Number of faces shared with processor 18 = 22
+    Number of faces shared with processor 19 = 31
+    Number of processor patches = 6
+    Number of processor faces = 118
+    Number of boundary faces = 1156
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+
+Processor 12
+    Number of cells = 578
+    Number of faces shared with processor 4 = 20
+    Number of faces shared with processor 11 = 28
+    Number of faces shared with processor 13 = 12
+    Number of faces shared with processor 20 = 31
+    Number of faces shared with processor 21 = 25
+    Number of processor patches = 5
+    Number of processor faces = 116
+    Number of boundary faces = 1156
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+
+Processor 13
+    Number of cells = 578
+    Number of faces shared with processor 4 = 8
+    Number of faces shared with processor 5 = 30
+    Number of faces shared with processor 6 = 9
+    Number of faces shared with processor 12 = 12
+    Number of faces shared with processor 14 = 11
+    Number of faces shared with processor 21 = 32
+    Number of processor patches = 6
+    Number of processor faces = 102
+    Number of boundary faces = 1156
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+
+Processor 14
+    Number of cells = 578
+    Number of faces shared with processor 6 = 21
+    Number of faces shared with processor 7 = 1
+    Number of faces shared with processor 13 = 11
+    Number of faces shared with processor 15 = 28
+    Number of faces shared with processor 21 = 23
+    Number of faces shared with processor 22 = 25
+    Number of faces shared with processor 23 = 1
+    Number of processor patches = 7
+    Number of processor faces = 110
+    Number of boundary faces = 1156
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+
+Processor 15
+    Number of cells = 578
+    Number of faces shared with processor 7 = 22
+    Number of faces shared with processor 14 = 28
+    Number of faces shared with processor 23 = 22
+    Number of processor patches = 3
+    Number of processor faces = 72
+    Number of boundary faces = 1184
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+
+Processor 16
+    Number of cells = 578
+    Number of faces shared with processor 8 = 23
+    Number of faces shared with processor 9 = 1
+    Number of faces shared with processor 17 = 26
+    Number of faces shared with processor 24 = 25
+    Number of processor patches = 4
+    Number of processor faces = 75
+    Number of boundary faces = 1181
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+
+Processor 17
+    Number of cells = 578
+    Number of faces shared with processor 9 = 23
+    Number of faces shared with processor 16 = 26
+    Number of faces shared with processor 18 = 24
+    Number of faces shared with processor 24 = 1
+    Number of faces shared with processor 25 = 26
+    Number of faces shared with processor 26 = 6
+    Number of processor patches = 6
+    Number of processor faces = 106
+    Number of boundary faces = 1156
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+
+Processor 18
+    Number of cells = 578
+    Number of faces shared with processor 9 = 15
+    Number of faces shared with processor 10 = 31
+    Number of faces shared with processor 11 = 22
+    Number of faces shared with processor 17 = 24
+    Number of faces shared with processor 19 = 19
+    Number of faces shared with processor 26 = 31
+    Number of processor patches = 6
+    Number of processor faces = 142
+    Number of boundary faces = 1156
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+
+Processor 19
+    Number of cells = 578
+    Number of faces shared with processor 11 = 31
+    Number of faces shared with processor 18 = 19
+    Number of faces shared with processor 20 = 11
+    Number of faces shared with processor 26 = 23
+    Number of faces shared with processor 27 = 72
+    Number of processor patches = 5
+    Number of processor faces = 156
+    Number of boundary faces = 1156
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+
+Processor 20
+    Number of cells = 578
+    Number of faces shared with processor 12 = 31
+    Number of faces shared with processor 19 = 11
+    Number of faces shared with processor 21 = 15
+    Number of faces shared with processor 28 = 72
+    Number of faces shared with processor 29 = 27
+    Number of processor patches = 5
+    Number of processor faces = 156
+    Number of boundary faces = 1156
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+
+Processor 21
+    Number of cells = 578
+    Number of faces shared with processor 12 = 25
+    Number of faces shared with processor 13 = 32
+    Number of faces shared with processor 14 = 23
+    Number of faces shared with processor 20 = 15
+    Number of faces shared with processor 22 = 17
+    Number of faces shared with processor 29 = 26
+    Number of processor patches = 6
+    Number of processor faces = 138
+    Number of boundary faces = 1156
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+
+Processor 22
+    Number of cells = 578
+    Number of faces shared with processor 14 = 25
+    Number of faces shared with processor 21 = 17
+    Number of faces shared with processor 23 = 26
+    Number of faces shared with processor 29 = 9
+    Number of faces shared with processor 30 = 29
+    Number of processor patches = 5
+    Number of processor faces = 106
+    Number of boundary faces = 1156
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+
+Processor 23
+    Number of cells = 578
+    Number of faces shared with processor 14 = 1
+    Number of faces shared with processor 15 = 22
+    Number of faces shared with processor 22 = 26
+    Number of faces shared with processor 30 = 1
+    Number of faces shared with processor 31 = 27
+    Number of processor patches = 5
+    Number of processor faces = 77
+    Number of boundary faces = 1179
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+
+Processor 24
+    Number of cells = 578
+    Number of faces shared with processor 16 = 25
+    Number of faces shared with processor 17 = 1
+    Number of faces shared with processor 25 = 22
+    Number of faces shared with processor 32 = 25
+    Number of processor patches = 4
+    Number of processor faces = 73
+    Number of boundary faces = 1181
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+
+Processor 25
+    Number of cells = 578
+    Number of faces shared with processor 17 = 26
+    Number of faces shared with processor 24 = 22
+    Number of faces shared with processor 26 = 23
+    Number of faces shared with processor 32 = 2
+    Number of faces shared with processor 33 = 25
+    Number of processor patches = 5
+    Number of processor faces = 98
+    Number of boundary faces = 1156
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+
+Processor 26
+    Number of cells = 578
+    Number of faces shared with processor 17 = 6
+    Number of faces shared with processor 18 = 31
+    Number of faces shared with processor 19 = 23
+    Number of faces shared with processor 25 = 23
+    Number of faces shared with processor 27 = 30
+    Number of faces shared with processor 33 = 2
+    Number of faces shared with processor 34 = 30
+    Number of faces shared with processor 35 = 19
+    Number of processor patches = 8
+    Number of processor faces = 164
+    Number of boundary faces = 1156
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+
+Processor 27
+    Number of cells = 578
+    Number of faces shared with processor 19 = 72
+    Number of faces shared with processor 26 = 30
+    Number of faces shared with processor 28 = 2
+    Number of faces shared with processor 35 = 72
+    Number of processor patches = 4
+    Number of processor faces = 176
+    Number of boundary faces = 1316
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+
+Processor 28
+    Number of cells = 578
+    Number of faces shared with processor 20 = 72
+    Number of faces shared with processor 27 = 2
+    Number of faces shared with processor 29 = 30
+    Number of faces shared with processor 36 = 72
+    Number of processor patches = 4
+    Number of processor faces = 176
+    Number of boundary faces = 1316
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+
+Processor 29
+    Number of cells = 578
+    Number of faces shared with processor 20 = 27
+    Number of faces shared with processor 21 = 26
+    Number of faces shared with processor 22 = 9
+    Number of faces shared with processor 28 = 30
+    Number of faces shared with processor 30 = 26
+    Number of faces shared with processor 36 = 27
+    Number of faces shared with processor 37 = 26
+    Number of faces shared with processor 38 = 9
+    Number of processor patches = 8
+    Number of processor faces = 180
+    Number of boundary faces = 1156
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+
+Processor 30
+    Number of cells = 578
+    Number of faces shared with processor 22 = 29
+    Number of faces shared with processor 23 = 1
+    Number of faces shared with processor 29 = 26
+    Number of faces shared with processor 31 = 22
+    Number of faces shared with processor 38 = 29
+    Number of faces shared with processor 39 = 3
+    Number of processor patches = 6
+    Number of processor faces = 110
+    Number of boundary faces = 1156
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+
+Processor 31
+    Number of cells = 578
+    Number of faces shared with processor 23 = 27
+    Number of faces shared with processor 30 = 22
+    Number of faces shared with processor 39 = 28
+    Number of processor patches = 3
+    Number of processor faces = 77
+    Number of boundary faces = 1179
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+
+Processor 32
+    Number of cells = 578
+    Number of faces shared with processor 24 = 25
+    Number of faces shared with processor 25 = 2
+    Number of faces shared with processor 33 = 26
+    Number of faces shared with processor 40 = 23
+    Number of processor patches = 4
+    Number of processor faces = 76
+    Number of boundary faces = 1182
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+
+Processor 33
+    Number of cells = 578
+    Number of faces shared with processor 25 = 25
+    Number of faces shared with processor 26 = 2
+    Number of faces shared with processor 32 = 26
+    Number of faces shared with processor 34 = 26
+    Number of faces shared with processor 41 = 23
+    Number of processor patches = 5
+    Number of processor faces = 102
+    Number of boundary faces = 1156
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+
+Processor 34
+    Number of cells = 578
+    Number of faces shared with processor 26 = 30
+    Number of faces shared with processor 33 = 26
+    Number of faces shared with processor 35 = 22
+    Number of faces shared with processor 41 = 13
+    Number of faces shared with processor 42 = 31
+    Number of faces shared with processor 43 = 22
+    Number of processor patches = 6
+    Number of processor faces = 144
+    Number of boundary faces = 1156
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+
+Processor 35
+    Number of cells = 578
+    Number of faces shared with processor 26 = 19
+    Number of faces shared with processor 27 = 72
+    Number of faces shared with processor 34 = 22
+    Number of faces shared with processor 36 = 10
+    Number of faces shared with processor 43 = 33
+    Number of processor patches = 5
+    Number of processor faces = 156
+    Number of boundary faces = 1156
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+
+Processor 36
+    Number of cells = 578
+    Number of faces shared with processor 28 = 72
+    Number of faces shared with processor 29 = 27
+    Number of faces shared with processor 35 = 10
+    Number of faces shared with processor 37 = 15
+    Number of faces shared with processor 43 = 1
+    Number of faces shared with processor 44 = 31
+    Number of processor patches = 6
+    Number of processor faces = 156
+    Number of boundary faces = 1156
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+
+Processor 37
+    Number of cells = 578
+    Number of faces shared with processor 29 = 26
+    Number of faces shared with processor 36 = 15
+    Number of faces shared with processor 38 = 17
+    Number of faces shared with processor 44 = 25
+    Number of faces shared with processor 45 = 32
+    Number of faces shared with processor 46 = 23
+    Number of processor patches = 6
+    Number of processor faces = 138
+    Number of boundary faces = 1156
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+
+Processor 38
+    Number of cells = 578
+    Number of faces shared with processor 29 = 9
+    Number of faces shared with processor 30 = 29
+    Number of faces shared with processor 37 = 17
+    Number of faces shared with processor 39 = 25
+    Number of faces shared with processor 46 = 25
+    Number of faces shared with processor 47 = 1
+    Number of processor patches = 6
+    Number of processor faces = 106
+    Number of boundary faces = 1156
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+
+Processor 39
+    Number of cells = 578
+    Number of faces shared with processor 30 = 3
+    Number of faces shared with processor 31 = 28
+    Number of faces shared with processor 38 = 25
+    Number of faces shared with processor 47 = 23
+    Number of processor patches = 4
+    Number of processor faces = 79
+    Number of boundary faces = 1179
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+
+Processor 40
+    Number of cells = 578
+    Number of faces shared with processor 32 = 23
+    Number of faces shared with processor 41 = 26
+    Number of faces shared with processor 48 = 23
+    Number of processor patches = 3
+    Number of processor faces = 72
+    Number of boundary faces = 1182
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+
+Processor 41
+    Number of cells = 578
+    Number of faces shared with processor 33 = 23
+    Number of faces shared with processor 34 = 13
+    Number of faces shared with processor 40 = 26
+    Number of faces shared with processor 42 = 16
+    Number of faces shared with processor 48 = 1
+    Number of faces shared with processor 49 = 23
+    Number of processor patches = 6
+    Number of processor faces = 102
+    Number of boundary faces = 1156
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+
+Processor 42
+    Number of cells = 578
+    Number of faces shared with processor 34 = 31
+    Number of faces shared with processor 41 = 16
+    Number of faces shared with processor 43 = 16
+    Number of faces shared with processor 49 = 5
+    Number of faces shared with processor 50 = 28
+    Number of faces shared with processor 51 = 6
+    Number of processor patches = 6
+    Number of processor faces = 102
+    Number of boundary faces = 1156
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+
+Processor 43
+    Number of cells = 578
+    Number of faces shared with processor 34 = 22
+    Number of faces shared with processor 35 = 33
+    Number of faces shared with processor 36 = 1
+    Number of faces shared with processor 42 = 16
+    Number of faces shared with processor 44 = 28
+    Number of faces shared with processor 51 = 20
+    Number of processor patches = 6
+    Number of processor faces = 120
+    Number of boundary faces = 1156
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+
+Processor 44
+    Number of cells = 578
+    Number of faces shared with processor 36 = 31
+    Number of faces shared with processor 37 = 25
+    Number of faces shared with processor 43 = 28
+    Number of faces shared with processor 45 = 13
+    Number of faces shared with processor 51 = 1
+    Number of faces shared with processor 52 = 20
+    Number of processor patches = 6
+    Number of processor faces = 118
+    Number of boundary faces = 1156
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+
+Processor 45
+    Number of cells = 578
+    Number of faces shared with processor 37 = 32
+    Number of faces shared with processor 44 = 13
+    Number of faces shared with processor 46 = 12
+    Number of faces shared with processor 52 = 8
+    Number of faces shared with processor 53 = 30
+    Number of faces shared with processor 54 = 7
+    Number of processor patches = 6
+    Number of processor faces = 102
+    Number of boundary faces = 1156
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+
+Processor 46
+    Number of cells = 578
+    Number of faces shared with processor 37 = 23
+    Number of faces shared with processor 38 = 25
+    Number of faces shared with processor 45 = 12
+    Number of faces shared with processor 47 = 29
+    Number of faces shared with processor 54 = 21
+    Number of processor patches = 5
+    Number of processor faces = 110
+    Number of boundary faces = 1156
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+
+Processor 47
+    Number of cells = 578
+    Number of faces shared with processor 38 = 1
+    Number of faces shared with processor 39 = 23
+    Number of faces shared with processor 46 = 29
+    Number of faces shared with processor 55 = 22
+    Number of processor patches = 4
+    Number of processor faces = 75
+    Number of boundary faces = 1183
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+
+Processor 48
+    Number of cells = 582
+    Number of faces shared with processor 40 = 23
+    Number of faces shared with processor 41 = 1
+    Number of faces shared with processor 49 = 26
+    Number of processor patches = 3
+    Number of processor faces = 50
+    Number of boundary faces = 1212
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+
+Processor 49
+    Number of cells = 582
+    Number of faces shared with processor 41 = 23
+    Number of faces shared with processor 42 = 5
+    Number of faces shared with processor 48 = 26
+    Number of faces shared with processor 50 = 22
+    Number of processor patches = 4
+    Number of processor faces = 76
+    Number of boundary faces = 1186
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+
+Processor 50
+    Number of cells = 582
+    Number of faces shared with processor 42 = 28
+    Number of faces shared with processor 49 = 22
+    Number of faces shared with processor 51 = 24
+    Number of processor patches = 3
+    Number of processor faces = 74
+    Number of boundary faces = 1190
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+
+Processor 51
+    Number of cells = 582
+    Number of faces shared with processor 42 = 6
+    Number of faces shared with processor 43 = 20
+    Number of faces shared with processor 44 = 1
+    Number of faces shared with processor 50 = 24
+    Number of faces shared with processor 52 = 29
+    Number of processor patches = 5
+    Number of processor faces = 80
+    Number of boundary faces = 1184
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+
+Processor 52
+    Number of cells = 582
+    Number of faces shared with processor 44 = 20
+    Number of faces shared with processor 45 = 8
+    Number of faces shared with processor 51 = 29
+    Number of faces shared with processor 53 = 22
+    Number of processor patches = 4
+    Number of processor faces = 79
+    Number of boundary faces = 1185
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+
+Processor 53
+    Number of cells = 582
+    Number of faces shared with processor 45 = 30
+    Number of faces shared with processor 52 = 22
+    Number of faces shared with processor 54 = 20
+    Number of processor patches = 3
+    Number of processor faces = 72
+    Number of boundary faces = 1192
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+
+Processor 54
+    Number of cells = 582
+    Number of faces shared with processor 45 = 7
+    Number of faces shared with processor 46 = 21
+    Number of faces shared with processor 53 = 20
+    Number of faces shared with processor 55 = 29
+    Number of processor patches = 4
+    Number of processor faces = 77
+    Number of boundary faces = 1185
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+
+Processor 55
+    Number of cells = 582
+    Number of faces shared with processor 47 = 22
+    Number of faces shared with processor 54 = 29
+    Number of processor patches = 2
+    Number of processor faces = 51
+    Number of boundary faces = 1213
+
+Number of processor faces = 2838
+Max number of cells = 582 (0.592593% above average 578.571)
+Max number of processor patches = 8 (67.1642% above average 4.78571)
+Max number of faces between processors = 180 (77.5899% above average 101.357)
+
+Time = 0
+
+Processor 0: field transfer
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+Processor 1: field transfer
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+Processor 2: field transfer
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+Processor 3: field transfer
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+Processor 4: field transfer
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+Processor 5: field transfer
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+Processor 6: field transfer
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+Processor 7: field transfer
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+Processor 8: field transfer
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+Processor 9: field transfer
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+Processor 10: field transfer
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+Processor 11: field transfer
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+Processor 12: field transfer
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+Processor 13: field transfer
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+Processor 14: field transfer
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+Processor 15: field transfer
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+Processor 16: field transfer
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+Processor 17: field transfer
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+Processor 18: field transfer
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+Processor 19: field transfer
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+Processor 20: field transfer
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+Processor 21: field transfer
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+Processor 22: field transfer
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+Processor 23: field transfer
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+Processor 24: field transfer
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+Processor 25: field transfer
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+Processor 26: field transfer
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+Processor 27: field transfer
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+Processor 28: field transfer
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+Processor 29: field transfer
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+Processor 30: field transfer
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+Processor 31: field transfer
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+Processor 32: field transfer
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+Processor 33: field transfer
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+Processor 34: field transfer
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+Processor 35: field transfer
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+Processor 36: field transfer
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+Processor 37: field transfer
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+Processor 38: field transfer
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+Processor 39: field transfer
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+Processor 40: field transfer
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+Processor 41: field transfer
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+Processor 42: field transfer
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+Processor 43: field transfer
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+Processor 44: field transfer
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+Processor 45: field transfer
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+Processor 46: field transfer
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+Processor 47: field transfer
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+Processor 48: field transfer
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+Processor 49: field transfer
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+Processor 50: field transfer
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+Processor 51: field transfer
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+Processor 52: field transfer
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+Processor 53: field transfer
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+Processor 54: field transfer
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+Processor 55: field transfer
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/small/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+
+End
+

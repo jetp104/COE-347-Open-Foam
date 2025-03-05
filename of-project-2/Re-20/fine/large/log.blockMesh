@@ -1,0 +1,164 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  7
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 7
+Exec   : blockMesh
+Date   : Mar 04 2025
+Time   : 00:24:58
+Host   : "c171-171.frontera.tacc.utexas.edu"
+PID    : 58085
+I/O    : uncollated
+Case   : /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/large
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/large/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+Deleting polyMesh directory
+    "/work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/large/constant/polyMesh"
+Creating block mesh from
+    "/work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/fine/large/system/blockMeshDict"
+Creating block edges
+No non-planar block faces defined
+Creating topology blocks
+Creating topology patches
+
+Creating block mesh topology
+--> FOAM Warning : 
+    From function Foam::polyMesh::polyMesh(const Foam::IOobject &, Foam::Field<Foam::Vector<double>> &&, const Foam::List<Foam::cellShape> &, const Foam::List<Foam::List<Foam::face>> &, const Foam::List<Foam::word> &, const Foam::PtrList<Foam::dictionary> &, const Foam::word &, const Foam::word &, bool)
+    in file meshes/polyMesh/polyMeshFromShapeMesh.C at line 873
+    Found 40 undefined faces in mesh; adding to default patch.
+
+Check topology
+
+	Basic statistics
+		Number of internal faces : 28
+		Number of boundary faces : 64
+		Number of defined boundary faces : 64
+		Number of undefined boundary faces : 0
+	Checking patch -> block consistency
+
+Creating block offsets
+Creating merge list .
+
+Creating polyMesh from blockMesh
+Creating points with scale 1
+    Block 0 cell size :
+        i : 0.27668 .. 0.55336
+        j : 0.00981731 .. 0.00981731 0.0152498 .. 0.0152498 0.00981731 .. 0.00981731 0.0152498 .. 0.0152498 
+        k : 0.1
+    Block 1 cell size :
+        i : 0.27668 .. 0.553361
+        j : 0.00981731 .. 0.00981731 0.0152498 .. 0.0152498 0.00981731 .. 0.00981731 0.0152498 .. 0.0152498 
+        k : 0.1
+    Block 2 cell size :
+        i : 0.27668 .. 0.55336
+        j : 0.00981731 .. 0.00981731 0.0152498 .. 0.0152498 0.00981731 .. 0.00981731 0.0152498 .. 0.0152498 
+        k : 0.1
+    Block 3 cell size :
+        i : 0.27668 .. 0.553361
+        j : 0.00981731 .. 0.00981731 0.0152498 .. 0.0152498 0.00981731 .. 0.00981731 0.0152498 .. 0.0152498 
+        k : 0.1
+    Block 4 cell size :
+        i : 0.27668 .. 0.55336
+        j : 0.00981731 .. 0.00981731 0.0152498 .. 0.0152498 0.00981731 .. 0.00981731 0.0152498 .. 0.0152498 
+        k : 0.1
+    Block 5 cell size :
+        i : 0.27668 .. 0.553361
+        j : 0.00981731 .. 0.00981731 0.0152498 .. 0.0152498 0.00981731 .. 0.00981731 0.0152498 .. 0.0152498 
+        k : 0.1
+    Block 6 cell size :
+        i : 0.27668 .. 0.55336
+        j : 0.00981731 .. 0.00981731 0.0152498 .. 0.0152498 0.00981731 .. 0.00981731 0.0152498 .. 0.0152498 
+        k : 0.1
+    Block 7 cell size :
+        i : 0.27668 .. 0.553361
+        j : 0.00981731 .. 0.00981731 0.0152498 .. 0.0152498 0.00981731 .. 0.00981731 0.0152498 .. 0.0152498 
+        k : 0.1
+    Block 8 cell size :
+        i : 0.198074 .. 0.792297 0.198089 .. 0.792358 0.198074 .. 0.792297 0.198089 .. 0.792358 
+        j : 0.166895 .. 0.166895 0.166741 .. 0.166348 0.166895 .. 0.166895 0.166741 .. 0.166348 
+        k : 0.1
+    Block 9 cell size :
+        i : 0.22101 .. 0.884041
+        j : 0.747848 .. 1.4957
+        k : 0.1
+    Block 10 cell size :
+        i : 0.166895 .. 0.166895 0.166664 .. 0.166075 0.166895 .. 0.166895 0.166664 .. 0.166075 
+        j : 0.713363 .. 1.42673 0.713386 .. 1.42677 0.713363 .. 1.42673 0.713386 .. 1.42677 
+        k : 0.1
+    Block 11 cell size :
+        i : 0.166895 .. 0.166895 0.166075 .. 0.166664 0.166895 .. 0.166895 0.166075 .. 0.166664 
+        j : 0.747848 .. 1.4957 0.74623 .. 1.49246 0.747848 .. 1.4957 0.74623 .. 1.49246 
+        k : 0.1
+    Block 12 cell size :
+        i : 1.98957 .. 0.497393
+        j : 0.747848 .. 1.4957
+        k : 0.1
+    Block 13 cell size :
+        i : 1.89783 .. 0.474457 1.89789 .. 0.474472 1.89783 .. 0.474457 1.89789 .. 0.474472 
+        j : 0.15026 .. 0.15026 0.150873 .. 0.149176 0.15026 .. 0.15026 0.150873 .. 0.149176 
+        k : 0.1
+    Block 14 cell size :
+        i : 1.98957 .. 0.497393 1.98527 .. 0.496316 1.98957 .. 0.497393 1.98527 .. 0.496316 
+        j : 0.15026 .. 0.15026 0.149176 .. 0.150873 0.15026 .. 0.15026 0.149176 .. 0.150873 
+        k : 0.1
+    Block 15 cell size :
+        i : 1.98957 .. 0.497393
+        j : 1.4957 .. 0.747848
+        k : 0.1
+    Block 16 cell size :
+        i : 0.15026 .. 0.15026 0.149434 .. 0.150721 0.15026 .. 0.15026 0.149434 .. 0.150721 
+        j : 1.4957 .. 0.747848 1.49246 .. 0.74623 1.4957 .. 0.747848 1.49246 .. 0.74623 
+        k : 0.1
+    Block 17 cell size :
+        i : 0.15026 .. 0.15026 0.150721 .. 0.149434 0.15026 .. 0.15026 0.150721 .. 0.149434 
+        j : 1.42673 .. 0.713363 1.42677 .. 0.713386 1.42673 .. 0.713363 1.42677 .. 0.713386 
+        k : 0.1
+    Block 18 cell size :
+        i : 0.22101 .. 0.884041
+        j : 1.4957 .. 0.747848
+        k : 0.1
+    Block 19 cell size :
+        i : 0.22101 .. 0.884041 0.219934 .. 0.879736 0.22101 .. 0.884041 0.219934 .. 0.879736 
+        j : 0.166895 .. 0.166895 0.166348 .. 0.166741 0.166895 .. 0.166895 0.166348 .. 0.166741 
+        k : 0.1
+Creating cells
+Creating patches
+
+There are no merge patch pairs edges
+
+Writing polyMesh
+----------------
+Mesh Information
+----------------
+  boundingBox: (-60 -60 -0.05) (30 60 0.05)
+  nPoints: 65840
+  nCells: 32400
+  nFaces: 130120
+  nInternalFaces: 64280
+----------------
+Patches
+----------------
+  patch 0 (start: 64280 size: 180) name: inlet
+  patch 1 (start: 64460 size: 180) name: outlet
+  patch 2 (start: 64640 size: 320) name: cylinder
+  patch 3 (start: 64960 size: 180) name: top
+  patch 4 (start: 65140 size: 180) name: bottom
+  patch 5 (start: 65320 size: 64800) name: defaultFaces
+
+End
+
