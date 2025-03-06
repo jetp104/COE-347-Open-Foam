@@ -8,11 +8,11 @@
 Build  : 7
 Exec   : postProcess -func sample
 Date   : Mar 05 2025
-Time   : 00:20:36
-Host   : "c205-032.frontera.tacc.utexas.edu"
-PID    : 196963
+Time   : 13:54:30
+Host   : "c201-032.frontera.tacc.utexas.edu"
+PID    : 232859
 I/O    : uncollated
-Case   : /work2/10532/jrovall/frontera/COE-347-Open-Foam/of-project-2/Re-20/coarse/large
+Case   : /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/coarse/large
 nProcs : 1
 sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
 fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
@@ -24,78 +24,106 @@ Create time
 --> FOAM Warning : 
     From function entry::New(dictionary&, Istream&)
     in file db/dictionary/entry/entryIO.C at line 144
-    Reading /work2/10532/jrovall/frontera/COE-347-Open-Foam/of-project-2/Re-20/coarse/large/system/probes
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/coarse/large/system/probes
     found on line 26 the punctuation token '/'
     expected either } or EOF
 Create mesh for time = 0
 
 --> FOAM Warning : 
-    From function static bool Foam::functionObjectList::readFunctionObject(const Foam::string &, Foam::dictionary &, Foam::HashSet<Foam::word, Foam::string::hash> &, const Foam::word &)
-    in file db/functionObjects/functionObjectList/functionObjectList.C at line 278
-    Cannot find functionObject file sample
+    From function bool Foam::functionObjectList::read()
+    in file db/functionObjects/functionObjectList/functionObjectList.C at line 746
+    Caught FatalError 
+--> FOAM FATAL ERROR: 
+Failed to associate with the starting boundary face
+
+    From function static void Foam::sampledSets::lineFace::calcSamples(const Foam::polyMesh &, const Foam::meshSearch &, const Foam::Vector<double> &, const Foam::Vector<double> &, Foam::DynamicList<Foam::Vector<double>, 0U, 2U, 1U> &, Foam::DynamicList<int, 0U, 2U, 1U> &, Foam::DynamicList<int, 0U, 2U, 1U> &, Foam::DynamicList<int, 0U, 2U, 1U> &, Foam::DynamicList<double, 0U, 2U, 1U> &)
+    in file sampledSet/lineFace/lineFace.C at line 116.
+
 Time = 0
 
 Reading fields:
+    volScalarFields: p
+    volVectorFields: U
 
 Executing functionObjects
 
 Time = 5
 
 Reading fields:
+    volScalarFields: p
+    volVectorFields: U
 
 Executing functionObjects
 
 Time = 10
 
 Reading fields:
+    volScalarFields: p
+    volVectorFields: U
 
 Executing functionObjects
 
 Time = 15
 
 Reading fields:
+    volScalarFields: p
+    volVectorFields: U
 
 Executing functionObjects
 
 Time = 20
 
 Reading fields:
+    volScalarFields: p
+    volVectorFields: U
 
 Executing functionObjects
 
 Time = 25
 
 Reading fields:
+    volScalarFields: p
+    volVectorFields: U
 
 Executing functionObjects
 
 Time = 30
 
 Reading fields:
+    volScalarFields: p
+    volVectorFields: U
 
 Executing functionObjects
 
 Time = 35
 
 Reading fields:
+    volScalarFields: p
+    volVectorFields: U
 
 Executing functionObjects
 
 Time = 40
 
 Reading fields:
+    volScalarFields: p
+    volVectorFields: U
 
 Executing functionObjects
 
 Time = 45
 
 Reading fields:
+    volScalarFields: p
+    volVectorFields: U
 
 Executing functionObjects
 
 Time = 50
 
 Reading fields:
+    volScalarFields: p
+    volVectorFields: U
 
 Executing functionObjects
 

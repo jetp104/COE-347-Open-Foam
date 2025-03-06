@@ -1,0 +1,9 @@
+/work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/radial-refinement/fine
+Wed Mar  5 23:34:11 CST 2025
+Running blockMesh on /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/radial-refinement/fine
+Running checkMesh on /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/radial-refinement/fine
+Running decomposePar on /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/radial-refinement/fine
+Running icoFoam in parallel on /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/radial-refinement/fine using 56 processes
+Running reconstructPar on /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/radial-refinement/fine
+Running postProces on /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/radial-refinement/fine
+Wed Mar  5 23:38:48 CST 2025

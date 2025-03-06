@@ -1,0 +1,40 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  7
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 7
+Exec   : postProcess -func sample
+Date   : Mar 05 2025
+Time   : 13:38:25
+Host   : "c201-025.frontera.tacc.utexas.edu"
+PID    : 39340
+I/O    : uncollated
+Case   : /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/coarse/large
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+--> FOAM Warning : 
+    From function entry::New(dictionary&, Istream&)
+    in file db/dictionary/entry/entryIO.C at line 144
+    Reading /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/coarse/large/system/probes
+    found on line 26 the punctuation token '/'
+    expected either } or EOF
+Create mesh for time = 0
+
+
+--> FOAM FATAL IO ERROR: 
+keyword interpolationScheme is undefined in dictionary "/work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/coarse/large/system/sample"
+
+file: /work2/10249/ctshep3141/frontera/coe347/COE-347-Open-Foam/of-project-2/Re-20/coarse/large/system/sample from line 20 to line 54.
+
+    From function const Foam::entry &Foam::dictionary::lookupEntry(const Foam::word &, bool, bool) const
+    in file db/dictionary/dictionary.C at line 573.
+
