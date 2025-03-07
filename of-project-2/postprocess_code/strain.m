@@ -5,7 +5,7 @@ clear;
 R = 0.5;
 
 % List of data files
-data_files = {'threepiover4_UF.txt', 'threepiover4_UM.txt', 'threepiover4_UC.txt'};
+data_files = {'piover2_UF.txt', 'piover2_UM.txt', 'piover2_UC.txt'};
 titles = {'Original', 'Modified', 'Corrected'};
 
 % Initialize arrays to store computed strain tensors and deltas
@@ -32,8 +32,8 @@ for i = 1:length(data_files)
     s_valid = s(validIndices);
     
     % Compute velocity components in polar coordinates
-    u_r = u_x(validIndices) .* cos(3*pi/4) + u_y(validIndices) .* sin(3*pi/4);
-    u_theta = u_x(validIndices) .* sin(3*pi/4) + u_y(validIndices) .* cos(3*pi/4);
+    u_r = -u_x(validIndices) .* cos(pi/2) + u_y(validIndices) .* sin(pi/2);
+    u_theta = -u_x(validIndices) .* sin(pi/2) - u_y(validIndices) .* cos(pi/2) -3;
     
     % Compute rate of strain tensor
     s_step = s_valid(2) - s_valid(1); % Grid spacing
@@ -64,6 +64,7 @@ for i = 1:length(data_files)
     disp(['e_rtheta = ', num2str(e_rtheta)]);
 end
 
+
 % Plot strain tensor components against deltas
 gcf = figure;
 hold on;
@@ -72,7 +73,7 @@ plot(all_deltas, all_e_rtheta, 'bs--', 'LineWidth', 1.5);
 xlabel('1/\delta');
 ylabel('Strain Tensor Components');
 legend('e_{rr}', 'e_{r\theta}');
-title('Strain Tensor Components vs Delta (3\pi/4)');
+title('Strain Tensor Components vs Delta (\pi/2)');
 grid on;
 hold off;
-saveas(gcf, 'threePiover4strain.eps', 'epsc');
+saveas(gcf, 'Piover2strain.eps', 'epsc');
