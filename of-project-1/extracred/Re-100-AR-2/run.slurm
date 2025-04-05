@@ -24,10 +24,10 @@
 #SBATCH -J 100-2           # Job name
 #SBATCH -o 100-2.o%j       # Name of stdout output file
 #SBATCH -e 100-2.e%j       # Name of stderr error file
-#SBATCH -p small           # Queue (partition) name
+#SBATCH -p development           # Queue (partition) name
 #SBATCH -N 1               # Total # of nodes (must be 1 for serial)
 #SBATCH -n 1               # Total # of mpi tasks (should be 1 for serial)
-#SBATCH -t 06:00:00        # Run time (hh:mm:ss)
+#SBATCH -t 02:00:00        # Run time (hh:mm:ss)
 #SBATCH -A CTS24005       # Project/Allocation name (req'd if you have more than 1)
 
 # Any other commands must follow all #SBATCH directives...

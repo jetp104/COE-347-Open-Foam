@@ -27,7 +27,7 @@
 #SBATCH -p small           # Queue (partition) name
 #SBATCH -N 1               # Total # of nodes (must be 1 for serial)
 #SBATCH -n 1               # Total # of mpi tasks (should be 1 for serial)
-#SBATCH -t 6:00:00        # Run time (hh:mm:ss)
+#SBATCH -t 2:00:00        # Run time (hh:mm:ss)
 #SBATCH -A CTS24005       # Project/Allocation name (req'd if you have more than 1)
 
 # Any other commands must follow all #SBATCH directives...

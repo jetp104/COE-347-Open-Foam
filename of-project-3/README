@@ -1,0 +1,4 @@
+The case files within this directory are the simulation files for the runs for openfoam 3. A brief description is given of the directory that corresponds with each case.  
+Directory name:
+virgin-file----------base unedited  directory copied straight from the class git
+part-5---------------initial run on coarse mesh
