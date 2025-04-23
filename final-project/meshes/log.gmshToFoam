@@ -1,0 +1,51 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  9
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 9
+Exec   : gmshToFoam isoQ.msh
+Date   : Apr 23 2025
+Time   : 12:48:29
+Host   : "c100-006.frontera.tacc.utexas.edu"
+PID    : 235378
+I/O    : uncollated
+Case   : /work2/10249/ctshep3141/frontera/Research/meshes
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Starting to read mesh format at line 2
+Read format version 4.1  ascii 0
+
+Starting to read physical names at line 5
+Physical names:7
+    Surface 2	IsoQ_walls
+    Surface 3	inlet
+    Surface 4	top
+    Surface 5	outlet
+    Surface 6	right
+    Surface 7	left
+    Volume 1	fluid
+
+Skipping tag $Entities at line 15
+Starting to read points at line 58
+Vertices to be read:32
+
+
+--> FOAM FATAL IO ERROR: 
+Attempt to get back from bad stream
+
+file: IStringStream.sourceFile at line 0.
+
+    From function bool Foam::Istream::getBack(Foam::token &)
+    in file db/IOstreams/IOstreams/Istream.C at line 56.
+
+FOAM exiting
+

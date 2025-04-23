@@ -1,0 +1,37 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  7
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 7
+Exec   : icoFoam
+Date   : Apr 23 2025
+Time   : 16:05:54
+Host   : "c100-010.frontera.tacc.utexas.edu"
+PID    : 82024
+I/O    : uncollated
+Case   : /work2/10249/ctshep3141/frontera/Research/meshes/prelim_run
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+
+
+--> FOAM FATAL IO ERROR: 
+keyword version is undefined in dictionary "/work2/10249/ctshep3141/frontera/Research/meshes/prelim_run/constant/polyMesh/points"
+
+file: /work2/10249/ctshep3141/frontera/Research/meshes/prelim_run/constant/polyMesh/points from line 10 to line 13.
+
+    From function const Foam::entry &Foam::dictionary::lookupEntry(const Foam::word &, bool, bool) const
+    in file db/dictionary/dictionary.C at line 573.
+
+FOAM exiting
+
