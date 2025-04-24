@@ -1791,10 +1791,6 @@ boundaryField
     {
         type            wedge;
     }
-    axis
-    {
-        type            empty;
-    }
 }
 
 

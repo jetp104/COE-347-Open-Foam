@@ -4164,11 +4164,6 @@ boundaryField
 )
 ;
     }
-    axis
-    {
-        type            empty;
-        value           nonuniform 0();
-    }
 }
 
 

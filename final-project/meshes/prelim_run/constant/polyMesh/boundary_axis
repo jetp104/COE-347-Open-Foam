@@ -15,7 +15,7 @@ FoamFile
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-6
+7
 (
     IsoQ_walls
     {
@@ -58,6 +58,13 @@ FoamFile
         physicalType    patch;
         nFaces          546;
         startFace       3562;
+    }
+    axis
+    {
+        type            empty;
+        inGroups        List<word> 1(empty);
+        nFaces          0;
+        startFace       2856;
     }
 )
 
