@@ -23,12 +23,29 @@ Plane Surface(1) = {1};
 
 Mesh.CharacteristicLengthMin = 0.01;
 Mesh.CharacteristicLengthMax = 0.05;
+Mesh.MshFileVersion = 2.2;
 
 //Mesh 2;
 
 Extrude { {1,0,0} , {0,0,0} , Pi/64 } {
     Surface{1}; Layers{1}; Recombine;
 };
+
+
+// Volume
+Physical Volume("fluid") = {1};
+// Surfaces
+Physical Surface("IsoQ_walls") = {19,23,27};
+Physical Surface("inlet") = {38};
+Physical Surface("top") = {35};
+Physical Surface("outlet") = {31};
+Physical Surface("right") = {1};
+Physical Surface("left") = {39};
+
+
+
+
+
 
 Mesh 3;
 
@@ -60,3 +77,5 @@ Mesh 3;
 // 
 // // Mesh
 // Mesh 3;// change to 2 to mesh only the surfaces
+//+
+Show "*";
