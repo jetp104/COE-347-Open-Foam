@@ -17,47 +17,47 @@ FoamFile
 
 6
 (
+    right
+    {
+        type            wedge;
+        physicalType    patch;
+        nFaces          12359;
+        startFace       18389;
+    }
     IsoQ_walls
     {
         type            patch;
         physicalType    patch;
-        nFaces          19;
-        startFace       2856;
+        nFaces          29;
+        startFace       30748;
     }
     inlet
     {
         type            patch;
         physicalType    patch;
-        nFaces          31;
-        startFace       2875;
-    }
-    top
-    {
-        type            patch;
-        physicalType    patch;
-        nFaces          80;
-        startFace       2906;
-    }
-    outlet
-    {
-        type            patch;
-        physicalType    patch;
-        nFaces          30;
-        startFace       2986;
-    }
-    right
-    {
-        type            wedge;
-        physicalType    patch;
-        nFaces          546;
-        startFace       3016;
+        nFaces          50;
+        startFace       30777;
     }
     left
     {
         type            wedge;
         physicalType    patch;
-        nFaces          546;
-        startFace       3562;
+        nFaces          12359;
+        startFace       30827;
+    }
+    outlet
+    {
+        type            patch;
+        physicalType    patch;
+        nFaces          40;
+        startFace       43186;
+    }
+    top
+    {
+        type            patch;
+        physicalType    patch;
+        nFaces          100;
+        startFace       43226;
     }
 )
 
