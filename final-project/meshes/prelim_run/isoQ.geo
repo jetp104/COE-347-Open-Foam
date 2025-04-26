@@ -19,13 +19,23 @@ Line(6) = {8, 9};
 Line(7) = {9, 1};
 
 Curve Loop(1) = {1, 2, 3, 4, 5, 6, 7};
-
 Plane Surface(1) = {1};
-Mesh.CharacteristicLengthMin = 0.1;
-Mesh.CharacteristicLengthMax = 0.5;
 
-// Mesh 2;
-out[] = Extrude{{1,0,0}, Pi/2}{Surface{1}};
+Mesh.CharacteristicLengthMin = 0.01;
+Mesh.CharacteristicLengthMax = 0.05;
+
+//Mesh 2;
+
+Extrude { {1,0,0} , {0,0,0} , Pi/64 } {
+    Surface{1}; Layers{1}; Recombine;
+};
+
+Mesh 3;
+
+
+
+
+
 
 //Mesh 3;
 // old method
