@@ -1,14 +1,14 @@
 // New method with parameterized geometry
-D = -1; C = -D;
+D = -1; C = -D; theta = Pi/64;
 Point(1) = {5*D, 0, 0, 1};
 Point(2) = {D, 0, 0, 1};
 Point(3) = {0, 0, 0, 1};
-Point(4) = {D*Sqrt(176)/15, C*7/15, 0, 1};
-Point(5) = {15*D/16*Sqrt(176)/15, C/2 - C/16, 0, 1};
-Point(6) = {15*D/16*Sqrt(176)/15, C/2, 0, 1};
-Point(7) = {0, C/2, 0, 1};
-Point(8) = {0, 2.5*C, 0, 1};
-Point(9) = {5*D, 2.5*C, 0, 1};
+Point(4) = {D*Sqrt(176)/15, C*7/15*Cos(theta/2), -C*7/15*Sin(theta/2), 1};
+Point(5) = {15*D/16*Sqrt(176)/15,(C/2 - C/16)*Cos(theta/2), -(C/2 - C/16)*Sin(theta/2), 1};
+Point(6) = {15*D/16*Sqrt(176)/15, C/2*Cos(theta/2), -C/2*Sin(theta/2), 1};
+Point(7) = {0, C/2*Cos(theta/2), -C/2*Sin(theta/2), 1};
+Point(8) = {0, 2.5*C*Cos(theta/2), -2.5*C*Sin(theta/2), 1};
+Point(9) = {5*D, 2.5*C*Cos(theta/2), -2.5*C*Sin(theta/2), 1};
 
 Line(1) = {1, 2};
 Circle(2) = {2, 3, 4};
@@ -27,7 +27,7 @@ Mesh.MshFileVersion = 2.2;
 
 //Mesh 2;
 
-Extrude { {1,0,0} , {0,0,0} , Pi/64 } {
+Extrude { {1,0,0} , {0,0,0} , theta } {
     Surface{1}; Layers{1}; Recombine;
 };
 
