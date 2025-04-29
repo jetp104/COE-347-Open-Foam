@@ -21,43 +21,43 @@ FoamFile
     {
         type            wedge;
         physicalType    patch;
-        nFaces          12359;
-        startFace       18389;
+        nFaces          19392;
+        startFace       28816;
     }
     IsoQ_walls
     {
         type            patch;
         physicalType    patch;
-        nFaces          29;
-        startFace       30748;
+        nFaces          278;
+        startFace       48208;
     }
     inlet
     {
         type            patch;
         physicalType    patch;
-        nFaces          50;
-        startFace       30777;
+        nFaces          25;
+        startFace       48486;
     }
     left
     {
         type            wedge;
         physicalType    patch;
-        nFaces          12359;
-        startFace       30827;
+        nFaces          19392;
+        startFace       48511;
     }
     outlet
     {
         type            patch;
         physicalType    patch;
-        nFaces          40;
-        startFace       43186;
+        nFaces          64;
+        startFace       67903;
     }
     top
     {
         type            patch;
         physicalType    patch;
-        nFaces          100;
-        startFace       43226;
+        nFaces          50;
+        startFace       67967;
     }
 )
 
