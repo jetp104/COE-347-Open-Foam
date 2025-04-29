@@ -50,34 +50,3 @@ Physical Surface("left") = {39};
 
 
 Mesh 3;
-
-
-
-
-
-
-//Mesh 3;
-// old method
-// // Import CAD
-// Merge "IsoQ.step";
-// 
-// // Mesh sizing
-// Mesh.CharacteristicLengthMin = 1;
-// Mesh.CharacteristicLengthMax = 5;
-// 
-// // Mesh format
-// Mesh.MshFileVersion = 2.0;
-// // Volume
-// Physical Volume("fluid") = {1};
-// // Surfaces
-// Physical Surface("IsoQ_walls") = {1,5,6};
-// Physical Surface("inlet") = {2};
-// Physical Surface("top") = {3};
-// Physical Surface("outlet") = {4};
-// Physical Surface("right") = {7};
-// Physical Surface("left") = {8};
-// 
-// // Mesh
-// Mesh 3;// change to 2 to mesh only the surfaces
-//+
-Show "*";
