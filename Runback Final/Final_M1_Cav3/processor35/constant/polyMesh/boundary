@@ -1,0 +1,145 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  7
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       polyBoundaryMesh;
+    location    "constant/polyMesh";
+    object      boundary;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+14
+(
+    inlet
+    {
+        type            patch;
+        nFaces          0;
+        startFace       4709;
+    }
+    outlet
+    {
+        type            patch;
+        nFaces          0;
+        startFace       4709;
+    }
+    bottom
+    {
+        type            symmetryPlane;
+        inGroups        List<word> 1(symmetryPlane);
+        nFaces          0;
+        startFace       4709;
+    }
+    top
+    {
+        type            symmetryPlane;
+        inGroups        List<word> 1(symmetryPlane);
+        nFaces          0;
+        startFace       4709;
+    }
+    obstacle
+    {
+        type            patch;
+        nFaces          0;
+        startFace       4709;
+    }
+    front
+    {
+        type            empty;
+        inGroups        List<word> 1(empty);
+        nFaces          2413;
+        startFace       4709;
+    }
+    back
+    {
+        type            empty;
+        inGroups        List<word> 1(empty);
+        nFaces          2413;
+        startFace       7122;
+    }
+    procBoundary35to18
+    {
+        type            processor;
+        inGroups        List<word> 1(processor);
+        nFaces          6;
+        startFace       9535;
+        matchTolerance  0.0001;
+        transform       unknown;
+        myProcNo        35;
+        neighbProcNo    18;
+    }
+    procBoundary35to26
+    {
+        type            processor;
+        inGroups        List<word> 1(processor);
+        nFaces          19;
+        startFace       9541;
+        matchTolerance  0.0001;
+        transform       unknown;
+        myProcNo        35;
+        neighbProcNo    26;
+    }
+    procBoundary35to27
+    {
+        type            processor;
+        inGroups        List<word> 1(processor);
+        nFaces          89;
+        startFace       9560;
+        matchTolerance  0.0001;
+        transform       unknown;
+        myProcNo        35;
+        neighbProcNo    27;
+    }
+    procBoundary35to28
+    {
+        type            processor;
+        inGroups        List<word> 1(processor);
+        nFaces          1;
+        startFace       9649;
+        matchTolerance  0.0001;
+        transform       unknown;
+        myProcNo        35;
+        neighbProcNo    28;
+    }
+    procBoundary35to34
+    {
+        type            processor;
+        inGroups        List<word> 1(processor);
+        nFaces          3;
+        startFace       9650;
+        matchTolerance  0.0001;
+        transform       unknown;
+        myProcNo        35;
+        neighbProcNo    34;
+    }
+    procBoundary35to36
+    {
+        type            processor;
+        inGroups        List<word> 1(processor);
+        nFaces          27;
+        startFace       9653;
+        matchTolerance  0.0001;
+        transform       unknown;
+        myProcNo        35;
+        neighbProcNo    36;
+    }
+    procBoundary35to43
+    {
+        type            processor;
+        inGroups        List<word> 1(processor);
+        nFaces          89;
+        startFace       9680;
+        matchTolerance  0.0001;
+        transform       unknown;
+        myProcNo        35;
+        neighbProcNo    43;
+    }
+)
+
+// ************************************************************************* //
