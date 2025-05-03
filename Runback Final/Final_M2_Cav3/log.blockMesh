@@ -7,10 +7,10 @@
 \*---------------------------------------------------------------------------*/
 Build  : 7
 Exec   : blockMesh
-Date   : May 02 2025
-Time   : 04:21:51
-Host   : "c201-032.frontera.tacc.utexas.edu"
-PID    : 284698
+Date   : May 03 2025
+Time   : 09:35:55
+Host   : "c201-019.frontera.tacc.utexas.edu"
+PID    : 5758
 I/O    : uncollated
 Case   : /work2/09050/jetp104/frontera/COE-347-SP25/Final_M2_Cav3
 nProcs : 1
@@ -21,8 +21,6 @@ allowSystemOperations : Allowing user-supplied system call operations
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 Create time
 
-Deleting polyMesh directory
-    "/work2/09050/jetp104/frontera/COE-347-SP25/Final_M2_Cav3/constant/polyMesh"
 Creating block mesh from
     "/work2/09050/jetp104/frontera/COE-347-SP25/Final_M2_Cav3/system/blockMeshDict"
 Creating block edges
@@ -59,7 +57,7 @@ Creating points with scale 1
         j : 0.01875 .. 0.01875
         k : 0.1
     Block 3 cell size :
-        i : 0.00260417
+        i : 0.0127604 .. 0.0127604
         j : 0.021875
         k : 0.1
 Creating cells
@@ -69,7 +67,7 @@ Writing polyMesh
 ----------------
 Mesh Information
 ----------------
-  boundingBox: (0 0 -0.05) (4.1 4 0.05)
+  boundingBox: (0 0 -0.05) (8 4 0.05)
   nPoints: 272642
   nCells: 135168
   nFaces: 541824

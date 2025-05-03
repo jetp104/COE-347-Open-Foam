@@ -7,10 +7,10 @@
 \*---------------------------------------------------------------------------*/
 Build  : 7
 Exec   : decomposePar
-Date   : May 02 2025
-Time   : 05:09:12
-Host   : "c201-029.frontera.tacc.utexas.edu"
-PID    : 17104
+Date   : May 03 2025
+Time   : 09:38:05
+Host   : "c201-033.frontera.tacc.utexas.edu"
+PID    : 87432
 I/O    : uncollated
 Case   : /work2/09050/jetp104/frontera/COE-347-SP25/Final_M1_Cav3
 nProcs : 1
@@ -111,32 +111,32 @@ Processor 4
 Processor 5
     Number of cells = 2413
     Number of faces shared with processor 4 = 27
-    Number of faces shared with processor 6 = 15
+    Number of faces shared with processor 6 = 14
     Number of faces shared with processor 12 = 27
     Number of faces shared with processor 13 = 129
     Number of faces shared with processor 20 = 25
     Number of processor patches = 5
-    Number of processor faces = 223
-    Number of boundary faces = 5017
+    Number of processor faces = 222
+    Number of boundary faces = 5018
 
 Processor 6
     Number of cells = 2413
-    Number of faces shared with processor 5 = 15
-    Number of faces shared with processor 7 = 19
+    Number of faces shared with processor 5 = 14
+    Number of faces shared with processor 7 = 18
     Number of faces shared with processor 13 = 5
     Number of faces shared with processor 14 = 133
     Number of processor patches = 4
-    Number of processor faces = 172
+    Number of processor faces = 170
     Number of boundary faces = 4958
 
 Processor 7
     Number of cells = 2413
-    Number of faces shared with processor 6 = 19
+    Number of faces shared with processor 6 = 18
     Number of faces shared with processor 14 = 1
     Number of faces shared with processor 15 = 133
     Number of processor patches = 3
-    Number of processor faces = 153
-    Number of boundary faces = 4977
+    Number of processor faces = 152
+    Number of boundary faces = 4976
 
 Processor 8
     Number of cells = 2413
@@ -648,33 +648,33 @@ Processor 53
     Number of faces shared with processor 45 = 129
     Number of faces shared with processor 46 = 1
     Number of faces shared with processor 52 = 18
-    Number of faces shared with processor 54 = 19
+    Number of faces shared with processor 54 = 18
     Number of processor patches = 4
-    Number of processor faces = 167
-    Number of boundary faces = 4965
+    Number of processor faces = 166
+    Number of boundary faces = 4964
 
 Processor 54
     Number of cells = 2418
     Number of faces shared with processor 46 = 133
     Number of faces shared with processor 47 = 1
-    Number of faces shared with processor 53 = 19
-    Number of faces shared with processor 55 = 19
+    Number of faces shared with processor 53 = 18
+    Number of faces shared with processor 55 = 18
     Number of processor patches = 4
-    Number of processor faces = 172
+    Number of processor faces = 170
     Number of boundary faces = 4968
 
 Processor 55
     Number of cells = 2418
     Number of faces shared with processor 47 = 133
-    Number of faces shared with processor 54 = 19
+    Number of faces shared with processor 54 = 18
     Number of processor patches = 2
-    Number of processor faces = 152
-    Number of boundary faces = 4986
+    Number of processor faces = 151
+    Number of boundary faces = 4987
 
-Number of processor faces = 6904
+Number of processor faces = 6900
 Max number of cells = 2418 (0.177557% above average 2413.71)
 Max number of processor patches = 7 (42.029% above average 4.92857)
-Max number of faces between processors = 304 (23.2908% above average 246.571)
+Max number of faces between processors = 304 (23.3623% above average 246.429)
 
 Time = 0
 

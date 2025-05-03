@@ -10,7 +10,7 @@
 ### #SBATCH -p normal          # Queue (partition) name
 
 #SBATCH -p development          # Queue (partition) name
-#SBATCH -N 40               # Total # of nodes
+#SBATCH -N 2               # Total # of nodes
 #SBATCH -n 56               # Total # of mpi tasks
 #SBATCH -t 02:00:00        # Run time (hh:mm:ss)
 

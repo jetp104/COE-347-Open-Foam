@@ -7,10 +7,10 @@
 \*---------------------------------------------------------------------------*/
 Build  : 7
 Exec   : blockMesh
-Date   : May 02 2025
-Time   : 04:51:32
-Host   : "c203-010.frontera.tacc.utexas.edu"
-PID    : 231760
+Date   : May 03 2025
+Time   : 10:17:53
+Host   : "c205-003.frontera.tacc.utexas.edu"
+PID    : 210447
 I/O    : uncollated
 Case   : /work2/09050/jetp104/frontera/COE-347-SP25/Final_M3_Cav3
 nProcs : 1
@@ -59,7 +59,7 @@ Creating points with scale 1
         j : 0.01875 .. 0.01875
         k : 0.1
     Block 3 cell size :
-        i : 0.00260417
+        i : 0.0127604 .. 0.0127604
         j : 0.021875
         k : 0.1
 Creating cells
@@ -69,7 +69,7 @@ Writing polyMesh
 ----------------
 Mesh Information
 ----------------
-  boundingBox: (0 0 -0.05) (4.1 4 0.05)
+  boundingBox: (0 0 -0.05) (8 4 0.05)
   nPoints: 272642
   nCells: 135168
   nFaces: 541824

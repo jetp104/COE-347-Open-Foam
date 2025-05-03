@@ -7,10 +7,10 @@
 \*---------------------------------------------------------------------------*/
 Build  : 7
 Exec   : checkMesh
-Date   : May 02 2025
-Time   : 05:09:02
-Host   : "c201-029.frontera.tacc.utexas.edu"
-PID    : 17040
+Date   : May 03 2025
+Time   : 09:37:57
+Host   : "c201-033.frontera.tacc.utexas.edu"
+PID    : 87368
 I/O    : uncollated
 Case   : /work2/09050/jetp104/frontera/COE-347-SP25/Final_M1_Cav3
 nProcs : 1
@@ -65,19 +65,19 @@ Checking patch topology for multiply connected surfaces...
     back                135168   136321   ok (non-closed singly connected)  
 
 Checking geometry...
-    Overall domain bounding box (0 0 -0.05) (4.1 4 0.05)
+    Overall domain bounding box (0 0 -0.05) (8 4 0.05)
     Mesh has 2 geometric (non-empty/wedge) directions (1 1 0)
     Mesh has 2 solution (non-empty) directions (1 1 0)
     All edges aligned with or perpendicular to non-empty directions.
-    Boundary openness (8.90202e-18 3.08496e-17 6.38888e-13) OK.
+    Boundary openness (5.04743e-18 2.04637e-17 -1.01457e-12) OK.
     Max cell openness = 1.32169e-16 OK.
     Max aspect ratio = 8.4 OK.
     Minimum face area = 5.69661e-05. Maximum face area = 0.0021875.  Face area magnitudes OK.
-    Min volume = 5.69661e-06. Max volume = 2.39258e-05.  Total volume = 1.4.  Cell volumes OK.
+    Min volume = 5.69661e-06. Max volume = 2.79134e-05.  Total volume = 2.492.  Cell volumes OK.
     Mesh non-orthogonality Max: 0 average: 0
     Non-orthogonality check OK.
     Face pyramids OK.
-    Max skewness = 5.07531e-13 OK.
+    Max skewness = 5.55842e-13 OK.
     Coupled point location match (average 0) OK.
 
 Mesh OK.

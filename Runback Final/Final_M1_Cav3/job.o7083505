@@ -1,8 +1,0 @@
-/work2/09050/jetp104/frontera/COE-347-SP25/Final_M2_Cav3
-Fri May  2 04:21:49 CDT 2025
-Running blockMesh on /work2/09050/jetp104/frontera/COE-347-SP25/Final_M2_Cav3
-Running checkMesh on /work2/09050/jetp104/frontera/COE-347-SP25/Final_M2_Cav3
-Running decomposePar on /work2/09050/jetp104/frontera/COE-347-SP25/Final_M2_Cav3
-Running rhoCentralFoam in parallel on /work2/09050/jetp104/frontera/COE-347-SP25/Final_M2_Cav3 using 56 processes
-Running reconstructPar on /work2/09050/jetp104/frontera/COE-347-SP25/Final_M2_Cav3
-Fri May  2 04:35:23 CDT 2025
